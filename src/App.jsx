@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 
-const BOARD_PATH = "/data/current-board.json";
+const LOCAL_BOARD_PATH = "/data/current-board.json";
+const LIVE_BOARD_URL = import.meta.env.VITE_BOARD_URL?.trim() || "";
 const PROJECT_TIMEZONE = "America/New_York";
 const FILTER_OPTIONS = [
   { key: "all", label: "All" },
@@ -150,15 +151,29 @@ function App() {
     let active = true;
 
     async function loadBoard() {
-      const response = await fetch(BOARD_PATH, { cache: "no-store" });
-      if (!response.ok) {
-        throw new Error(`Failed to load board (${response.status})`);
+      const sources = [LIVE_BOARD_URL, LOCAL_BOARD_PATH].filter(Boolean);
+
+      let lastError = null;
+      for (const source of sources) {
+        try {
+          const response = await fetch(source, { cache: "no-store" });
+          if (!response.ok) {
+            throw new Error(`Failed to load board from ${source} (${response.status})`);
+          }
+          const payload = await response.json();
+          if (!active) {
+            return;
+          }
+          setBoard(payload);
+          return;
+        } catch (error) {
+          lastError = error;
+        }
       }
-      const payload = await response.json();
-      if (!active) {
-        return;
+
+      if (lastError) {
+        throw lastError;
       }
-      setBoard(payload);
     }
 
     loadBoard().catch((error) => {
