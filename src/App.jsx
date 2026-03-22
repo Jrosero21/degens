@@ -87,6 +87,17 @@ function scoreValue(value) {
   return typeof value === "number" ? value : "--";
 }
 
+function tipoffSortValue(value) {
+  if (!value) {
+    return Number.MAX_SAFE_INTEGER;
+  }
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return Number.MAX_SAFE_INTEGER;
+  }
+  return date.getTime();
+}
+
 function statusTone(status) {
   if (status === "live") {
     return "is-live";
@@ -184,19 +195,26 @@ function App() {
   }, [alternateSlateDate, defaultSlateDate, focusGames]);
 
   const filteredGames = useMemo(() => {
+    let games;
     if (filterMode === "today") {
-      return todayGames;
+      games = todayGames;
+    } else if (filterMode === "tomorrow") {
+      games = tomorrowGames;
+    } else if (filterMode === "live") {
+      games = focusGames.filter((game) => game.status === "live");
+    } else if (filterMode === "final") {
+      games = focusGames.filter((game) => game.status === "final");
+    } else {
+      games = focusGames;
     }
-    if (filterMode === "tomorrow") {
-      return tomorrowGames;
-    }
-    if (filterMode === "live") {
-      return focusGames.filter((game) => game.status === "live");
-    }
-    if (filterMode === "final") {
-      return focusGames.filter((game) => game.status === "final");
-    }
-    return focusGames;
+
+    return [...games].sort((a, b) => {
+      const timeDiff = tipoffSortValue(b.tipoff) - tipoffSortValue(a.tipoff);
+      if (timeDiff !== 0) {
+        return timeDiff;
+      }
+      return String(b.gameSlot).localeCompare(String(a.gameSlot));
+    });
   }, [filterMode, focusGames, todayGames, tomorrowGames]);
 
   useEffect(() => {
