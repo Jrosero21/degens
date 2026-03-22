@@ -64,7 +64,8 @@ function formatSpread(favorite, spread) {
   if (!favorite || typeof spread !== "number" || Number.isNaN(spread)) {
     return "No line";
   }
-  return `${favorite} ${spread > 0 ? "+" : ""}${spread.toFixed(1)}`;
+  const displaySpread = Math.abs(spread).toFixed(1);
+  return `${favorite} -${displaySpread}`;
 }
 
 function formatTotal(value) {
