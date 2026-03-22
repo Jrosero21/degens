@@ -342,7 +342,9 @@ function App() {
 
                     <div className="game-row-foot">
                       <span>{formatSpread(game.odds?.favoriteTeam, game.odds?.favoriteSpread)}</span>
-                      <span>Total {formatTotal(game.odds?.total)}</span>
+                      <span className="game-row-foot-note">
+                        Market spread and total are averages across multiple bookmakers.
+                      </span>
                       <span>{formatPredictedWinner(game.prediction)}</span>
                     </div>
 
@@ -378,8 +380,8 @@ function App() {
                             <strong>{formatPredictedWinner(game.prediction)}</strong>
                           </div>
                           <div>
-                            <span>Tip</span>
-                            <strong>{formatDateTime(game.tipoff)}</strong>
+                            <span>Projected Total</span>
+                            <strong>{formatTotal(game.prediction?.total)}</strong>
                           </div>
                         </div>
                       </div>

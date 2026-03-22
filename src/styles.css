@@ -389,6 +389,14 @@ input:focus {
   gap: 4px;
 }
 
+.game-row-foot-note {
+  text-align: center;
+}
+
+.game-row-foot span:last-child {
+  text-align: right;
+}
+
 .detail-card {
   display: none;
 }
@@ -496,9 +504,23 @@ input:focus {
   }
 
   .game-row-foot {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr) minmax(0, 1fr);
     gap: 12px;
+    align-items: center;
+  }
+
+  .game-row-foot-note {
+    text-align: center;
+  }
+
+  .game-row-foot span:first-child {
+    text-align: left;
+  }
+
+  .game-row-foot span:last-child {
+    text-align: right;
+    justify-self: end;
   }
 
   .expand-grid {
