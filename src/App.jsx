@@ -10,6 +10,13 @@ const FILTER_OPTIONS = [
   { key: "live", label: "Live" },
   { key: "final", label: "Final" },
 ];
+const BET_FILTER_OPTIONS = [
+  { key: "all", label: "All Bets" },
+  { key: "cover", label: "Favor Cover" },
+  { key: "dnc", label: "Favor Failed To Cover" },
+  { key: "over", label: "Over" },
+  { key: "under", label: "Under" },
+];
 
 function formatDateTime(value) {
   if (!value) {
@@ -146,6 +153,7 @@ function App() {
   const [board, setBoard] = useState(null);
   const [selectedGameId, setSelectedGameId] = useState(null);
   const [filterMode, setFilterMode] = useState("all");
+  const [betFilterMode, setBetFilterMode] = useState("all");
 
   useEffect(() => {
     let active = true;
@@ -209,7 +217,7 @@ function App() {
     return focusGames.filter((game) => game.gameDate === alternateSlateDate);
   }, [alternateSlateDate, defaultSlateDate, focusGames]);
 
-  const filteredGames = useMemo(() => {
+  const baseFilteredGames = useMemo(() => {
     let games;
     if (filterMode === "today") {
       games = todayGames;
@@ -223,6 +231,28 @@ function App() {
       games = focusGames;
     }
 
+    return games;
+  }, [filterMode, focusGames, todayGames, tomorrowGames]);
+
+  const betFilterCounts = useMemo(() => {
+    return {
+      all: baseFilteredGames.length,
+      cover: baseFilteredGames.filter((game) => game.prediction?.projectedCover === "cover").length,
+      dnc: baseFilteredGames.filter((game) => game.prediction?.projectedCover === "dnc").length,
+      over: baseFilteredGames.filter((game) => game.prediction?.projectedOu === "over").length,
+      under: baseFilteredGames.filter((game) => game.prediction?.projectedOu === "under").length,
+    };
+  }, [baseFilteredGames]);
+
+  const filteredGames = useMemo(() => {
+    let games = baseFilteredGames;
+
+    if (betFilterMode === "cover" || betFilterMode === "dnc") {
+      games = games.filter((game) => game.prediction?.projectedCover === betFilterMode);
+    } else if (betFilterMode === "over" || betFilterMode === "under") {
+      games = games.filter((game) => game.prediction?.projectedOu === betFilterMode);
+    }
+
     return [...games].sort((a, b) => {
       const timeDiff = tipoffSortValue(b.tipoff) - tipoffSortValue(a.tipoff);
       if (timeDiff !== 0) {
@@ -230,7 +260,7 @@ function App() {
       }
       return String(b.gameSlot).localeCompare(String(a.gameSlot));
     });
-  }, [filterMode, focusGames, todayGames, tomorrowGames]);
+  }, [baseFilteredGames, betFilterMode]);
 
   useEffect(() => {
     if (!filteredGames.length) {
@@ -334,6 +364,18 @@ function App() {
                   >
                     <span>{option.label}</span>
                     <span className="chip-badge">{filterCounts[option.key] ?? 0}</span>
+                  </button>
+                ))}
+              </div>
+              <div className="chip-row chip-row-scroll">
+                {BET_FILTER_OPTIONS.map((option) => (
+                  <button
+                    key={option.key}
+                    className={`chip chip-with-badge ${betFilterMode === option.key ? "is-active" : ""}`}
+                    onClick={() => setBetFilterMode(option.key)}
+                  >
+                    <span>{option.label}</span>
+                    <span className="chip-badge">{betFilterCounts[option.key] ?? 0}</span>
                   </button>
                 ))}
               </div>
