@@ -165,7 +165,8 @@ function App() {
       let lastError = null;
       for (const source of sources) {
         try {
-          const response = await fetch(source, { cache: "no-store" });
+          const url = source.includes("?") ? `${source}&ts=${Date.now()}` : `${source}?ts=${Date.now()}`;
+          const response = await fetch(url, { cache: "no-store" });
           if (!response.ok) {
             throw new Error(`Failed to load board from ${source} (${response.status})`);
           }
