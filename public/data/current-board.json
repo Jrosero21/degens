@@ -1,0 +1,2269 @@
+{
+  "meta": {
+    "title": "March Madness Reference Board",
+    "seasonLabel": "2026 NCAA Tournament",
+    "activeModel": "score_v2_blend",
+    "refreshCadence": "Daily schedule and odds, recurring live scores",
+    "updatedAt": "2026-03-22T10:57:17.000Z"
+  },
+  "summary": {
+    "totalGames": 52,
+    "scheduledGames": 9,
+    "liveGames": 0,
+    "finalGames": 43
+  },
+  "modelAccuracy": [
+    {
+      "modelVersion": "score_v1",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "finalizedGames": 8,
+      "winnerAccuracy": 0.9999,
+      "teamScoreMae": 7.375,
+      "totalPointsMae": 11.75
+    },
+    {
+      "modelVersion": "score_v2_blend",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "finalizedGames": 8,
+      "winnerAccuracy": 0.9999,
+      "teamScoreMae": 6.0625,
+      "totalPointsMae": 9.625
+    },
+    {
+      "modelVersion": "score_v2_odds_retrained",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "finalizedGames": 8,
+      "winnerAccuracy": 0.9999,
+      "teamScoreMae": 7.625,
+      "totalPointsMae": 12.75
+    },
+    {
+      "modelVersion": "score_v2_odds_round64",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "finalizedGames": 8,
+      "winnerAccuracy": 0.9999,
+      "teamScoreMae": 7.625,
+      "totalPointsMae": 12.75
+    },
+    {
+      "modelVersion": "score_v1",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "finalizedGames": 4,
+      "winnerAccuracy": 0.75,
+      "teamScoreMae": 9.375,
+      "totalPointsMae": 18.75
+    },
+    {
+      "modelVersion": "score_v2_blend",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "finalizedGames": 21,
+      "winnerAccuracy": 0.7619,
+      "teamScoreMae": 7.4762,
+      "totalPointsMae": 10.5714
+    }
+  ],
+  "modelOutcomeAccuracy": {
+    "finalizedGames": 15,
+    "winnerAccuracy": 0.9333,
+    "coverPicks": 7,
+    "coverAccuracy": 0.7143,
+    "dncPicks": 7,
+    "dncAccuracy": 0.75,
+    "overPicks": 11,
+    "overAccuracy": 0.5455,
+    "underPicks": 4,
+    "underAccuracy": 0.25
+  },
+  "games": [
+    {
+      "id": "X16",
+      "gameSlot": "X16",
+      "gameDate": "2026-03-18",
+      "round": "first_four",
+      "roundLabel": "First Four",
+      "status": "final",
+      "tipoff": null,
+      "venue": "Dayton, OH",
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Lehigh",
+        "seed": "X16a",
+        "score": 55,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Prairie View A&M",
+        "seed": "X16b",
+        "score": 67,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "Y11",
+      "gameSlot": "Y11",
+      "gameDate": "2026-03-18",
+      "round": "first_four",
+      "roundLabel": "First Four",
+      "status": "final",
+      "tipoff": null,
+      "venue": "Dayton, OH",
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Miami OH",
+        "seed": "Y11a",
+        "score": 89,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "SMU",
+        "seed": "Y11b",
+        "score": 79,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "Y16",
+      "gameSlot": "Y16",
+      "gameDate": "2026-03-17",
+      "round": "first_four",
+      "roundLabel": "First Four",
+      "status": "final",
+      "tipoff": null,
+      "venue": "Dayton, OH",
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Howard",
+        "seed": "Y16a",
+        "score": 86,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "UMBC",
+        "seed": "Y16b",
+        "score": 83,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "Z11",
+      "gameSlot": "Z11",
+      "gameDate": "2026-03-17",
+      "round": "first_four",
+      "roundLabel": "First Four",
+      "status": "final",
+      "tipoff": "2026-03-18T04:15:00.000Z",
+      "venue": "University of Dayton Arena",
+      "scoreLastSyncAt": "2026-03-22T10:57:15.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "NC State",
+        "seed": "Z11a",
+        "score": 66,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Texas",
+        "seed": "Z11b",
+        "score": 68,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1W3",
+      "gameSlot": "R1W3",
+      "gameDate": "2026-03-19",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": null,
+      "venue": null,
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Michigan St",
+        "seed": "W03",
+        "score": 92,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "N Dakota St",
+        "seed": "W14",
+        "score": 67,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1W4",
+      "gameSlot": "R1W4",
+      "gameDate": "2026-03-20",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": null,
+      "venue": null,
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Kansas",
+        "seed": "W04",
+        "score": 68,
+        "predScore": 79
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Cal Baptist",
+        "seed": "W13",
+        "score": 60,
+        "predScore": 64
+      },
+      "odds": {
+        "snapshotAt": "2026-03-21T09:42:09.000Z",
+        "favoriteTeam": "Kansas Jayhawks",
+        "favoriteSpread": 23.4375,
+        "total": 137.1875
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T02:32:58.000Z",
+        "winner": "Kansas",
+        "margin": 15,
+        "total": 143,
+        "projectedCover": "cover",
+        "projectedOu": "over",
+        "actualCover": "dnc",
+        "actualOu": "under"
+      }
+    },
+    {
+      "id": "R1W6",
+      "gameSlot": "R1W6",
+      "gameDate": "2026-03-19",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": null,
+      "venue": null,
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Louisville",
+        "seed": "W06",
+        "score": 83,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "South Florida",
+        "seed": "W11",
+        "score": 79,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1W8",
+      "gameSlot": "R1W8",
+      "gameDate": "2026-03-19",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": null,
+      "venue": null,
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Ohio St",
+        "seed": "W08",
+        "score": 64,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "TCU",
+        "seed": "W09",
+        "score": 66,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1X1",
+      "gameSlot": "R1X1",
+      "gameDate": "2026-03-20",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": null,
+      "venue": null,
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Florida",
+        "seed": "X01",
+        "score": 114,
+        "predScore": 94
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Prairie View A&M",
+        "seed": "X16",
+        "score": 55,
+        "predScore": 61
+      },
+      "odds": {
+        "snapshotAt": "2026-03-21T09:42:09.000Z",
+        "favoriteTeam": "Florida Gators",
+        "favoriteSpread": 52,
+        "total": 162.5
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T02:32:58.000Z",
+        "winner": "Florida",
+        "margin": 33,
+        "total": 155,
+        "projectedCover": "dnc",
+        "projectedOu": "over",
+        "actualCover": "cover",
+        "actualOu": "over"
+      }
+    },
+    {
+      "id": "R1X3",
+      "gameSlot": "R1X3",
+      "gameDate": "2026-03-19",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": null,
+      "venue": null,
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Illinois",
+        "seed": "X03",
+        "score": 105,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Penn",
+        "seed": "X14",
+        "score": 70,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1X6",
+      "gameSlot": "R1X6",
+      "gameDate": "2026-03-19",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": null,
+      "venue": null,
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "North Carolina",
+        "seed": "X06",
+        "score": 78,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "VCU",
+        "seed": "X11",
+        "score": 82,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1X7",
+      "gameSlot": "R1X7",
+      "gameDate": "2026-03-19",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": null,
+      "venue": null,
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "St Mary's CA",
+        "seed": "X07",
+        "score": 50,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Texas A&M",
+        "seed": "X10",
+        "score": 63,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1X8",
+      "gameSlot": "R1X8",
+      "gameDate": "2026-03-20",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": null,
+      "venue": null,
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Clemson",
+        "seed": "X08",
+        "score": 61,
+        "predScore": 61
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Iowa",
+        "seed": "X09",
+        "score": 67,
+        "predScore": 68
+      },
+      "odds": {
+        "snapshotAt": "2026-03-21T07:31:38.000Z",
+        "favoriteTeam": "Iowa Hawkeyes",
+        "favoriteSpread": 10.5625,
+        "total": 120.4375
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T02:32:58.000Z",
+        "winner": "Iowa",
+        "margin": 7,
+        "total": 129,
+        "projectedCover": "dnc",
+        "projectedOu": "over",
+        "actualCover": "dnc",
+        "actualOu": "over"
+      }
+    },
+    {
+      "id": "R1Y2",
+      "gameSlot": "R1Y2",
+      "gameDate": "2026-03-20",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": null,
+      "venue": null,
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Iowa St",
+        "seed": "Y02",
+        "score": 108,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Tennessee St",
+        "seed": "Y15",
+        "score": 74,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1Y3",
+      "gameSlot": "R1Y3",
+      "gameDate": "2026-03-20",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": null,
+      "venue": null,
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Virginia",
+        "seed": "Y03",
+        "score": 82,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Wright St",
+        "seed": "Y14",
+        "score": 73,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1Y6",
+      "gameSlot": "R1Y6",
+      "gameDate": "2026-03-20",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": null,
+      "venue": null,
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Tennessee",
+        "seed": "Y06",
+        "score": 78,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Miami OH",
+        "seed": "Y11",
+        "score": 56,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1Z1",
+      "gameSlot": "R1Z1",
+      "gameDate": "2026-03-20",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": null,
+      "venue": null,
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Arizona",
+        "seed": "Z01",
+        "score": 92,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "LIU Brooklyn",
+        "seed": "Z16",
+        "score": 58,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1Z4",
+      "gameSlot": "R1Z4",
+      "gameDate": "2026-03-19",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": null,
+      "venue": null,
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Arkansas",
+        "seed": "Z04",
+        "score": 97,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Hawaii",
+        "seed": "Z13",
+        "score": 78,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1Z5",
+      "gameSlot": "R1Z5",
+      "gameDate": "2026-03-19",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": null,
+      "venue": null,
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Wisconsin",
+        "seed": "Z05",
+        "score": 82,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "High Point",
+        "seed": "Z12",
+        "score": 83,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1Z7",
+      "gameSlot": "R1Z7",
+      "gameDate": "2026-03-20",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": null,
+      "venue": null,
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Miami FL",
+        "seed": "Z07",
+        "score": 80,
+        "predScore": 76
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Missouri",
+        "seed": "Z10",
+        "score": 66,
+        "predScore": 73
+      },
+      "odds": {
+        "snapshotAt": "2026-03-21T09:42:09.000Z",
+        "favoriteTeam": "Miami Hurricanes",
+        "favoriteSpread": 4.5625,
+        "total": 138.375
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T02:32:58.000Z",
+        "winner": "Miami FL",
+        "margin": 3,
+        "total": 149,
+        "projectedCover": "cover",
+        "projectedOu": "over",
+        "actualCover": "cover",
+        "actualOu": "over"
+      }
+    },
+    {
+      "id": "R1X4",
+      "gameSlot": "R1X4",
+      "gameDate": "2026-03-19",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": "2026-03-19T19:40:00.000Z",
+      "venue": "Paycom Center",
+      "scoreLastSyncAt": "2026-03-22T10:57:16.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Nebraska",
+        "seed": "X04",
+        "score": 76,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Troy",
+        "seed": "X13",
+        "score": 47,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1W1",
+      "gameSlot": "R1W1",
+      "gameDate": "2026-03-19",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": "2026-03-19T21:50:00.000Z",
+      "venue": "Bon Secours Wellness Arena",
+      "scoreLastSyncAt": "2026-03-22T10:57:16.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Duke",
+        "seed": "W01",
+        "score": 71,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Siena",
+        "seed": "W16",
+        "score": 65,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1X5",
+      "gameSlot": "R1X5",
+      "gameDate": "2026-03-19",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": "2026-03-19T22:15:00.000Z",
+      "venue": "Paycom Center",
+      "scoreLastSyncAt": "2026-03-22T10:57:16.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Vanderbilt",
+        "seed": "X05",
+        "score": 78,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "McNeese St",
+        "seed": "X12",
+        "score": 68,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1Y1",
+      "gameSlot": "R1Y1",
+      "gameDate": "2026-03-19",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": "2026-03-20T02:10:00.000Z",
+      "venue": "KeyBank Center",
+      "scoreLastSyncAt": "2026-03-22T10:57:16.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Michigan",
+        "seed": "Y01",
+        "score": 101,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Howard",
+        "seed": "Y16",
+        "score": 80,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1Z6",
+      "gameSlot": "R1Z6",
+      "gameDate": "2026-03-19",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": "2026-03-20T02:25:00.000Z",
+      "venue": "Moda Center",
+      "scoreLastSyncAt": "2026-03-22T10:57:16.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "BYU",
+        "seed": "Z06",
+        "score": 71,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Texas",
+        "seed": "Z11",
+        "score": 79,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1Y8",
+      "gameSlot": "R1Y8",
+      "gameDate": "2026-03-19",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": "2026-03-20T04:45:00.000Z",
+      "venue": "KeyBank Center",
+      "scoreLastSyncAt": "2026-03-22T10:57:16.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Georgia",
+        "seed": "Y08",
+        "score": 77,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "St Louis",
+        "seed": "Y09",
+        "score": 102,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1Z3",
+      "gameSlot": "R1Z3",
+      "gameDate": "2026-03-19",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": "2026-03-20T05:00:00.000Z",
+      "venue": "Moda Center",
+      "scoreLastSyncAt": "2026-03-22T10:57:16.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Gonzaga",
+        "seed": "Z03",
+        "score": 73,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Kennesaw",
+        "seed": "Z14",
+        "score": 64,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1X2",
+      "gameSlot": "R1X2",
+      "gameDate": "2026-03-19",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": "2026-03-20T05:10:00.000Z",
+      "venue": "Paycom Center",
+      "scoreLastSyncAt": "2026-03-22T10:57:16.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Houston",
+        "seed": "X02",
+        "score": 78,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Idaho",
+        "seed": "X15",
+        "score": 47,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1Y7",
+      "gameSlot": "R1Y7",
+      "gameDate": "2026-03-20",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": "2026-03-20T19:15:00.000Z",
+      "venue": "Enterprise Center",
+      "scoreLastSyncAt": "2026-03-22T10:57:17.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Kentucky",
+        "seed": "Y07",
+        "score": 89,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Santa Clara",
+        "seed": "Y10",
+        "score": 84,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1Y5",
+      "gameSlot": "R1Y5",
+      "gameDate": "2026-03-20",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": "2026-03-20T19:40:00.000Z",
+      "venue": "Wintrust Arena",
+      "scoreLastSyncAt": "2026-03-22T10:57:17.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Texas Tech",
+        "seed": "Y05",
+        "score": 91,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Akron",
+        "seed": "Y12",
+        "score": 71,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1Y4",
+      "gameSlot": "R1Y4",
+      "gameDate": "2026-03-20",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": "2026-03-20T22:15:00.000Z",
+      "venue": "Wintrust Arena",
+      "scoreLastSyncAt": "2026-03-22T10:57:17.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Alabama",
+        "seed": "Y04",
+        "score": 90,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Hofstra",
+        "seed": "Y13",
+        "score": 70,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1Z8",
+      "gameSlot": "R1Z8",
+      "gameDate": "2026-03-20",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": "2026-03-20T23:10:00.000Z",
+      "venue": "Viejas Arena",
+      "scoreLastSyncAt": "2026-03-22T10:57:17.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Villanova",
+        "seed": "Z08",
+        "score": 76,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Utah St",
+        "seed": "Z09",
+        "score": 86,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R1W5",
+      "gameSlot": "R1W5",
+      "gameDate": "2026-03-20",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": "2026-03-21T02:10:00.000Z",
+      "venue": "Viejas Arena",
+      "scoreLastSyncAt": "2026-03-22T10:57:17.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "St John's",
+        "seed": "W05",
+        "score": 79,
+        "predScore": 80
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Northern Iowa",
+        "seed": "W12",
+        "score": 53,
+        "predScore": 63
+      },
+      "odds": {
+        "snapshotAt": "2026-03-21T07:31:38.000Z",
+        "favoriteTeam": "St. John's Red Storm",
+        "favoriteSpread": 21.4286,
+        "total": 146.4375
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T02:32:58.000Z",
+        "winner": "St John's",
+        "margin": 17,
+        "total": 143,
+        "projectedCover": "dnc",
+        "projectedOu": "under",
+        "actualCover": null,
+        "actualOu": "under"
+      }
+    },
+    {
+      "id": "R1W7",
+      "gameSlot": "R1W7",
+      "gameDate": "2026-03-20",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": "2026-03-21T02:25:00.000Z",
+      "venue": "T-Mobile Arena",
+      "scoreLastSyncAt": "2026-03-22T10:57:17.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "UCLA",
+        "seed": "W07",
+        "score": 75,
+        "predScore": 77
+      },
+      "team2": {
+        "side": "team2",
+        "name": "UCF",
+        "seed": "W10",
+        "score": 71,
+        "predScore": 71
+      },
+      "odds": {
+        "snapshotAt": "2026-03-21T07:31:38.000Z",
+        "favoriteTeam": "UCLA Bruins",
+        "favoriteSpread": 8.5,
+        "total": 141.5
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T02:32:58.000Z",
+        "winner": "UCLA",
+        "margin": 6,
+        "total": 148,
+        "projectedCover": "dnc",
+        "projectedOu": "over",
+        "actualCover": "dnc",
+        "actualOu": "over"
+      }
+    },
+    {
+      "id": "R1Z2",
+      "gameSlot": "R1Z2",
+      "gameDate": "2026-03-20",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": "2026-03-21T02:35:00.000Z",
+      "venue": "Enterprise Center",
+      "scoreLastSyncAt": "2026-03-22T10:57:17.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Purdue",
+        "seed": "Z02",
+        "score": 104,
+        "predScore": 92
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Queens NC",
+        "seed": "Z15",
+        "score": 71,
+        "predScore": 68
+      },
+      "odds": {
+        "snapshotAt": "2026-03-21T07:31:38.000Z",
+        "favoriteTeam": "Purdue Boilermakers",
+        "favoriteSpread": 23.1429,
+        "total": 160.6429
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T02:32:58.000Z",
+        "winner": "Purdue",
+        "margin": 24,
+        "total": 160,
+        "projectedCover": "cover",
+        "projectedOu": "under",
+        "actualCover": "cover",
+        "actualOu": "over"
+      }
+    },
+    {
+      "id": "R1W2",
+      "gameSlot": "R1W2",
+      "gameDate": "2026-03-20",
+      "round": "round64",
+      "roundLabel": "Round of 64",
+      "status": "final",
+      "tipoff": "2026-03-21T05:00:00.000Z",
+      "venue": "T-Mobile Arena",
+      "scoreLastSyncAt": "2026-03-22T10:57:17.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Connecticut",
+        "seed": "W02",
+        "score": 82,
+        "predScore": 79
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Furman",
+        "seed": "W15",
+        "score": 71,
+        "predScore": 58
+      },
+      "odds": {
+        "snapshotAt": "2026-03-21T09:42:09.000Z",
+        "favoriteTeam": "UConn Huskies",
+        "favoriteSpread": 20.8636,
+        "total": 139.2273
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T02:32:58.000Z",
+        "winner": "Connecticut",
+        "margin": 21,
+        "total": 137,
+        "projectedCover": "dnc",
+        "projectedOu": "over",
+        "actualCover": "dnc",
+        "actualOu": "over"
+      }
+    },
+    {
+      "id": "R2W2",
+      "gameSlot": "R2W2",
+      "gameDate": "2026-03-22",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "status": "scheduled",
+      "tipoff": null,
+      "venue": "T-Mobile Arena",
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Connecticut",
+        "seed": "W02",
+        "score": null,
+        "predScore": 73
+      },
+      "team2": {
+        "side": "team2",
+        "name": "UCLA",
+        "seed": "W07",
+        "score": null,
+        "predScore": 68
+      },
+      "odds": {
+        "snapshotAt": "2026-03-22T10:41:30.000Z",
+        "favoriteTeam": "UConn Huskies",
+        "favoriteSpread": 4.5,
+        "total": 136.6
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T06:41:34.000Z",
+        "winner": "Connecticut",
+        "margin": 5,
+        "total": 141,
+        "projectedCover": "cover",
+        "projectedOu": "over",
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R2W3",
+      "gameSlot": "R2W3",
+      "gameDate": "2026-03-21",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "status": "scheduled",
+      "tipoff": null,
+      "venue": null,
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Michigan St",
+        "seed": "W03",
+        "score": null,
+        "predScore": 78
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Louisville",
+        "seed": "W06",
+        "score": null,
+        "predScore": 77
+      },
+      "odds": {
+        "snapshotAt": "2026-03-21T15:11:29.000Z",
+        "favoriteTeam": "Michigan St Spartans",
+        "favoriteSpread": 4.5909,
+        "total": 151.1364
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T06:41:34.000Z",
+        "winner": "Michigan St",
+        "margin": 1,
+        "total": 155,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R2W4",
+      "gameSlot": "R2W4",
+      "gameDate": "2026-03-22",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "status": "scheduled",
+      "tipoff": null,
+      "venue": "Viejas Arena",
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Kansas",
+        "seed": "W04",
+        "score": null,
+        "predScore": 72
+      },
+      "team2": {
+        "side": "team2",
+        "name": "St John's",
+        "seed": "W05",
+        "score": null,
+        "predScore": 74
+      },
+      "odds": {
+        "snapshotAt": "2026-03-22T10:41:30.000Z",
+        "favoriteTeam": "St. John's Red Storm",
+        "favoriteSpread": 3.5,
+        "total": 144.45
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T06:41:34.000Z",
+        "winner": "St John's",
+        "margin": 2,
+        "total": 146,
+        "projectedCover": "dnc",
+        "projectedOu": "over",
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R2X1",
+      "gameSlot": "R2X1",
+      "gameDate": "2026-03-22",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "status": "scheduled",
+      "tipoff": null,
+      "venue": "Intrust Bank Arena",
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Florida",
+        "seed": "X01",
+        "score": null,
+        "predScore": 80
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Iowa",
+        "seed": "X09",
+        "score": null,
+        "predScore": 70
+      },
+      "odds": {
+        "snapshotAt": "2026-03-22T10:41:30.000Z",
+        "favoriteTeam": "Florida Gators",
+        "favoriteSpread": 10.4,
+        "total": 145.2
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T06:41:34.000Z",
+        "winner": "Florida",
+        "margin": 10,
+        "total": 150,
+        "projectedCover": "dnc",
+        "projectedOu": "over",
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R2Y2",
+      "gameSlot": "R2Y2",
+      "gameDate": "2026-03-22",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "status": "scheduled",
+      "tipoff": null,
+      "venue": "Enterprise Center",
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Iowa St",
+        "seed": "Y02",
+        "score": null,
+        "predScore": 79
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Kentucky",
+        "seed": "Y07",
+        "score": null,
+        "predScore": 71
+      },
+      "odds": {
+        "snapshotAt": "2026-03-22T10:41:30.000Z",
+        "favoriteTeam": "Iowa State Cyclones",
+        "favoriteSpread": 4.9,
+        "total": 145.7
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T06:41:34.000Z",
+        "winner": "Iowa St",
+        "margin": 8,
+        "total": 150,
+        "projectedCover": "cover",
+        "projectedOu": "over",
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R2Y3",
+      "gameSlot": "R2Y3",
+      "gameDate": "2026-03-22",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "status": "scheduled",
+      "tipoff": null,
+      "venue": "T-Mobile Arena",
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Virginia",
+        "seed": "Y03",
+        "score": null,
+        "predScore": 73
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Tennessee",
+        "seed": "Y06",
+        "score": null,
+        "predScore": 74
+      },
+      "odds": {
+        "snapshotAt": "2026-03-22T10:41:30.000Z",
+        "favoriteTeam": "Tennessee Volunteers",
+        "favoriteSpread": 1.2,
+        "total": 137.35
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T06:41:34.000Z",
+        "winner": "Tennessee",
+        "margin": 1,
+        "total": 147,
+        "projectedCover": "dnc",
+        "projectedOu": "over",
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R2Y4",
+      "gameSlot": "R2Y4",
+      "gameDate": "2026-03-22",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "status": "scheduled",
+      "tipoff": null,
+      "venue": "Intrust Bank Arena",
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Alabama",
+        "seed": "Y04",
+        "score": null,
+        "predScore": 83
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Texas Tech",
+        "seed": "Y05",
+        "score": null,
+        "predScore": 84
+      },
+      "odds": {
+        "snapshotAt": "2026-03-22T10:41:30.000Z",
+        "favoriteTeam": "Texas Tech Red Raiders",
+        "favoriteSpread": 0.9,
+        "total": 165.1
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T06:41:34.000Z",
+        "winner": "Texas Tech",
+        "margin": 1,
+        "total": 167,
+        "projectedCover": "cover",
+        "projectedOu": "over",
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R2Z1",
+      "gameSlot": "R2Z1",
+      "gameDate": "2026-03-22",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "status": "scheduled",
+      "tipoff": null,
+      "venue": "Viejas Arena",
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Arizona",
+        "seed": "Z01",
+        "score": null,
+        "predScore": 84
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Utah St",
+        "seed": "Z09",
+        "score": null,
+        "predScore": 71
+      },
+      "odds": {
+        "snapshotAt": "2026-03-22T10:41:30.000Z",
+        "favoriteTeam": "Arizona Wildcats",
+        "favoriteSpread": 11.7273,
+        "total": 154.7273
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T06:41:34.000Z",
+        "winner": "Arizona",
+        "margin": 13,
+        "total": 155,
+        "projectedCover": "cover",
+        "projectedOu": "over",
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R2Z2",
+      "gameSlot": "R2Z2",
+      "gameDate": "2026-03-22",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "status": "scheduled",
+      "tipoff": null,
+      "venue": "Enterprise Center",
+      "scoreLastSyncAt": null,
+      "team1": {
+        "side": "team1",
+        "name": "Purdue",
+        "seed": "Z02",
+        "score": null,
+        "predScore": 80
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Miami FL",
+        "seed": "Z07",
+        "score": null,
+        "predScore": 72
+      },
+      "odds": {
+        "snapshotAt": "2026-03-22T10:41:30.000Z",
+        "favoriteTeam": "Purdue Boilermakers",
+        "favoriteSpread": 7.5,
+        "total": 147.5909
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T06:41:34.000Z",
+        "winner": "Purdue",
+        "margin": 8,
+        "total": 152,
+        "projectedCover": "cover",
+        "projectedOu": "over",
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R2Y1",
+      "gameSlot": "R2Y1",
+      "gameDate": "2026-03-21",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "status": "final",
+      "tipoff": "2026-03-21T19:10:00.000Z",
+      "venue": "KeyBank Center",
+      "scoreLastSyncAt": "2026-03-22T10:55:00.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Michigan",
+        "seed": "Y01",
+        "score": 95,
+        "predScore": 86
+      },
+      "team2": {
+        "side": "team2",
+        "name": "St Louis",
+        "seed": "Y09",
+        "score": 72,
+        "predScore": 73
+      },
+      "odds": {
+        "snapshotAt": "2026-03-21T15:11:29.000Z",
+        "favoriteTeam": "Michigan Wolverines",
+        "favoriteSpread": 12.5,
+        "total": 161.3636
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T04:47:39.000Z",
+        "winner": "Michigan",
+        "margin": 13,
+        "total": 159,
+        "projectedCover": "cover",
+        "projectedOu": "under",
+        "actualCover": "cover",
+        "actualOu": "over"
+      }
+    },
+    {
+      "id": "R2W1",
+      "gameSlot": "R2W1",
+      "gameDate": "2026-03-21",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "status": "final",
+      "tipoff": "2026-03-22T00:15:00.000Z",
+      "venue": "Bon Secours Wellness Arena",
+      "scoreLastSyncAt": "2026-03-22T10:55:00.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Duke",
+        "seed": "W01",
+        "score": 81,
+        "predScore": 78
+      },
+      "team2": {
+        "side": "team2",
+        "name": "TCU",
+        "seed": "W09",
+        "score": 58,
+        "predScore": 65
+      },
+      "odds": {
+        "snapshotAt": "2026-03-21T15:11:29.000Z",
+        "favoriteTeam": "Duke Blue Devils",
+        "favoriteSpread": 11.5909,
+        "total": 139.9545
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T04:47:39.000Z",
+        "winner": "Duke",
+        "margin": 13,
+        "total": 143,
+        "projectedCover": "cover",
+        "projectedOu": "over",
+        "actualCover": "cover",
+        "actualOu": "under"
+      }
+    },
+    {
+      "id": "R2X2",
+      "gameSlot": "R2X2",
+      "gameDate": "2026-03-21",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "status": "final",
+      "tipoff": "2026-03-22T01:10:00.000Z",
+      "venue": "Paycom Center",
+      "scoreLastSyncAt": "2026-03-22T10:55:00.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Houston",
+        "seed": "X02",
+        "score": 57,
+        "predScore": 79
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Texas A&M",
+        "seed": "X10",
+        "score": 88,
+        "predScore": 69
+      },
+      "odds": {
+        "snapshotAt": "2026-03-21T15:11:29.000Z",
+        "favoriteTeam": "Houston Cougars",
+        "favoriteSpread": 10.5909,
+        "total": 142.3636
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T04:47:39.000Z",
+        "winner": "Houston",
+        "margin": 10,
+        "total": 148,
+        "projectedCover": "dnc",
+        "projectedOu": "over",
+        "actualCover": "dnc",
+        "actualOu": "over"
+      }
+    },
+    {
+      "id": "R2Z3",
+      "gameSlot": "R2Z3",
+      "gameDate": "2026-03-21",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "status": "final",
+      "tipoff": "2026-03-22T02:10:00.000Z",
+      "venue": "Moda Center",
+      "scoreLastSyncAt": "2026-03-22T10:55:00.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Gonzaga",
+        "seed": "Z03",
+        "score": 74,
+        "predScore": 81
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Texas",
+        "seed": "Z11",
+        "score": 68,
+        "predScore": 70
+      },
+      "odds": {
+        "snapshotAt": "2026-03-21T15:11:29.000Z",
+        "favoriteTeam": "Gonzaga Bulldogs",
+        "favoriteSpread": 6.5,
+        "total": 147.4091
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T04:47:39.000Z",
+        "winner": "Gonzaga",
+        "margin": 11,
+        "total": 151,
+        "projectedCover": "cover",
+        "projectedOu": "over",
+        "actualCover": "dnc",
+        "actualOu": "under"
+      }
+    },
+    {
+      "id": "R2X3",
+      "gameSlot": "R2X3",
+      "gameDate": "2026-03-21",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "status": "final",
+      "tipoff": "2026-03-22T02:50:00.000Z",
+      "venue": "Bon Secours Wellness Arena",
+      "scoreLastSyncAt": "2026-03-22T10:55:00.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Illinois",
+        "seed": "X03",
+        "score": 76,
+        "predScore": 81
+      },
+      "team2": {
+        "side": "team2",
+        "name": "VCU",
+        "seed": "X11",
+        "score": 55,
+        "predScore": 63
+      },
+      "odds": {
+        "snapshotAt": "2026-03-22T08:55:25.000Z",
+        "favoriteTeam": "Illinois Fighting Illini",
+        "favoriteSpread": 22.0714,
+        "total": 134.0714
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T04:59:04.000Z",
+        "winner": "Illinois",
+        "margin": 18,
+        "total": 144,
+        "projectedCover": "dnc",
+        "projectedOu": "over",
+        "actualCover": "dnc",
+        "actualOu": "under"
+      }
+    },
+    {
+      "id": "R2X4",
+      "gameSlot": "R2X4",
+      "gameDate": "2026-03-21",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "status": "final",
+      "tipoff": "2026-03-22T03:45:00.000Z",
+      "venue": "Paycom Center",
+      "scoreLastSyncAt": "2026-03-22T10:55:00.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Nebraska",
+        "seed": "X04",
+        "score": 74,
+        "predScore": 77
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Vanderbilt",
+        "seed": "X05",
+        "score": 72,
+        "predScore": 76
+      },
+      "odds": {
+        "snapshotAt": "2026-03-22T08:55:25.000Z",
+        "favoriteTeam": "Nebraska Cornhuskers",
+        "favoriteSpread": 3.375,
+        "total": 150.3125
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T04:59:04.000Z",
+        "winner": "Nebraska",
+        "margin": 1,
+        "total": 153,
+        "projectedCover": "dnc",
+        "projectedOu": "over",
+        "actualCover": "dnc",
+        "actualOu": "under"
+      }
+    },
+    {
+      "id": "R2Z4",
+      "gameSlot": "R2Z4",
+      "gameDate": "2026-03-21",
+      "round": "round32",
+      "roundLabel": "Round of 32",
+      "status": "final",
+      "tipoff": "2026-03-22T04:45:00.000Z",
+      "venue": "Moda Center",
+      "scoreLastSyncAt": "2026-03-22T10:55:00.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Arkansas",
+        "seed": "Z04",
+        "score": 94,
+        "predScore": 91
+      },
+      "team2": {
+        "side": "team2",
+        "name": "High Point",
+        "seed": "Z12",
+        "score": 88,
+        "predScore": 82
+      },
+      "odds": {
+        "snapshotAt": "2026-03-22T10:41:30.000Z",
+        "favoriteTeam": "Arkansas Razorbacks",
+        "favoriteSpread": 4.0714,
+        "total": 181.75
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-22T06:41:34.000Z",
+        "winner": "Arkansas",
+        "margin": 9,
+        "total": 173,
+        "projectedCover": "cover",
+        "projectedOu": "under",
+        "actualCover": "cover",
+        "actualOu": "over"
+      }
+    }
+  ]
+}
