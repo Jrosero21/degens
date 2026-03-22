@@ -3,6 +3,7 @@ import React, { useEffect, useMemo, useState } from "react";
 const LOCAL_BOARD_PATH = "/data/current-board.json";
 const LIVE_BOARD_URL = import.meta.env.VITE_BOARD_URL?.trim() || "";
 const PROJECT_TIMEZONE = "America/New_York";
+const BOARD_POLL_INTERVAL_MS = 60_000;
 const FILTER_OPTIONS = [
   { key: "all", label: "All" },
   { key: "today", label: "Today" },
@@ -190,8 +191,20 @@ function App() {
       }
     });
 
+    const intervalId = window.setInterval(() => {
+      loadBoard().catch((error) => {
+        if (active) {
+          setBoard((current) => ({
+            ...(current ?? { games: [], modelAccuracy: [], meta: {}, summary: {} }),
+            error: error.message,
+          }));
+        }
+      });
+    }, BOARD_POLL_INTERVAL_MS);
+
     return () => {
       active = false;
+      window.clearInterval(intervalId);
     };
   }, []);
 
