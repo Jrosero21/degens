@@ -4,13 +4,13 @@
     "seasonLabel": "2026 NCAA Tournament",
     "activeModel": "score_v2_blend",
     "refreshCadence": "Daily schedule and odds, recurring live scores",
-    "updatedAt": "2026-03-23T07:35:03.000Z"
+    "updatedAt": "2026-03-23T07:40:24.000Z"
   },
   "summary": {
     "totalGames": 52,
     "scheduledGames": 3,
-    "liveGames": 3,
-    "finalGames": 46
+    "liveGames": 2,
+    "finalGames": 47
   },
   "modelAccuracy": [
     {
@@ -53,30 +53,30 @@
       "modelVersion": "score_v1",
       "round": "round32",
       "roundLabel": "Round of 32",
-      "finalizedGames": 13,
-      "winnerAccuracy": 0.6923,
-      "teamScoreMae": 6.9231,
-      "totalPointsMae": 13.8462
+      "finalizedGames": 16,
+      "winnerAccuracy": 0.5625,
+      "teamScoreMae": 6.4688,
+      "totalPointsMae": 12.5625
     },
     {
       "modelVersion": "score_v2_blend",
       "round": "round32",
       "roundLabel": "Round of 32",
-      "finalizedGames": 39,
-      "winnerAccuracy": 0.8718,
-      "teamScoreMae": 6.2564,
-      "totalPointsMae": 9.2308
+      "finalizedGames": 45,
+      "winnerAccuracy": 0.8889,
+      "teamScoreMae": 5.8222,
+      "totalPointsMae": 8.5333
     }
   ],
   "modelOutcomeAccuracy": {
-    "finalizedGames": 18,
-    "winnerAccuracy": 0.9444,
+    "finalizedGames": 19,
+    "winnerAccuracy": 0.9474,
     "coverPicks": 9,
     "coverAccuracy": 0.7778,
-    "dncPicks": 7,
-    "dncAccuracy": 0.6667,
-    "overPicks": 14,
-    "overAccuracy": 0.5,
+    "dncPicks": 8,
+    "dncAccuracy": 0.6,
+    "overPicks": 15,
+    "overAccuracy": 0.5333,
     "underPicks": 4,
     "underAccuracy": 0.25
   },
@@ -216,7 +216,7 @@
       "status": "final",
       "tipoff": "2026-03-18T04:15:00.000Z",
       "venue": "University of Dayton Arena",
-      "scoreLastSyncAt": "2026-03-23T07:35:01.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:22.000Z",
       "team1": {
         "side": "team1",
         "name": "NC State",
@@ -930,7 +930,7 @@
       "status": "final",
       "tipoff": "2026-03-19T19:40:00.000Z",
       "venue": "Paycom Center",
-      "scoreLastSyncAt": "2026-03-23T07:35:02.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:23.000Z",
       "team1": {
         "side": "team1",
         "name": "Nebraska",
@@ -972,7 +972,7 @@
       "status": "final",
       "tipoff": "2026-03-19T21:50:00.000Z",
       "venue": "Bon Secours Wellness Arena",
-      "scoreLastSyncAt": "2026-03-23T07:35:02.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:23.000Z",
       "team1": {
         "side": "team1",
         "name": "Duke",
@@ -1014,7 +1014,7 @@
       "status": "final",
       "tipoff": "2026-03-19T22:15:00.000Z",
       "venue": "Paycom Center",
-      "scoreLastSyncAt": "2026-03-23T07:35:02.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:23.000Z",
       "team1": {
         "side": "team1",
         "name": "Vanderbilt",
@@ -1056,7 +1056,7 @@
       "status": "final",
       "tipoff": "2026-03-20T02:10:00.000Z",
       "venue": "KeyBank Center",
-      "scoreLastSyncAt": "2026-03-23T07:35:02.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:23.000Z",
       "team1": {
         "side": "team1",
         "name": "Michigan",
@@ -1098,7 +1098,7 @@
       "status": "final",
       "tipoff": "2026-03-20T02:25:00.000Z",
       "venue": "Moda Center",
-      "scoreLastSyncAt": "2026-03-23T07:35:02.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:23.000Z",
       "team1": {
         "side": "team1",
         "name": "BYU",
@@ -1140,7 +1140,7 @@
       "status": "final",
       "tipoff": "2026-03-20T04:45:00.000Z",
       "venue": "KeyBank Center",
-      "scoreLastSyncAt": "2026-03-23T07:35:02.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:23.000Z",
       "team1": {
         "side": "team1",
         "name": "Georgia",
@@ -1182,7 +1182,7 @@
       "status": "final",
       "tipoff": "2026-03-20T05:00:00.000Z",
       "venue": "Moda Center",
-      "scoreLastSyncAt": "2026-03-23T07:35:02.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:23.000Z",
       "team1": {
         "side": "team1",
         "name": "Gonzaga",
@@ -1224,7 +1224,7 @@
       "status": "final",
       "tipoff": "2026-03-20T05:10:00.000Z",
       "venue": "Paycom Center",
-      "scoreLastSyncAt": "2026-03-23T07:35:02.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:23.000Z",
       "team1": {
         "side": "team1",
         "name": "Houston",
@@ -1266,7 +1266,7 @@
       "status": "final",
       "tipoff": "2026-03-20T19:15:00.000Z",
       "venue": "Enterprise Center",
-      "scoreLastSyncAt": "2026-03-23T07:35:03.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:23.000Z",
       "team1": {
         "side": "team1",
         "name": "Kentucky",
@@ -1308,7 +1308,7 @@
       "status": "final",
       "tipoff": "2026-03-20T19:40:00.000Z",
       "venue": "Wintrust Arena",
-      "scoreLastSyncAt": "2026-03-23T07:35:03.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:23.000Z",
       "team1": {
         "side": "team1",
         "name": "Texas Tech",
@@ -1350,7 +1350,7 @@
       "status": "final",
       "tipoff": "2026-03-20T22:15:00.000Z",
       "venue": "Wintrust Arena",
-      "scoreLastSyncAt": "2026-03-23T07:35:03.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:23.000Z",
       "team1": {
         "side": "team1",
         "name": "Alabama",
@@ -1392,7 +1392,7 @@
       "status": "final",
       "tipoff": "2026-03-20T23:10:00.000Z",
       "venue": "Viejas Arena",
-      "scoreLastSyncAt": "2026-03-23T07:35:03.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:23.000Z",
       "team1": {
         "side": "team1",
         "name": "Villanova",
@@ -1434,7 +1434,7 @@
       "status": "final",
       "tipoff": "2026-03-21T02:10:00.000Z",
       "venue": "Viejas Arena",
-      "scoreLastSyncAt": "2026-03-23T07:35:03.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:23.000Z",
       "team1": {
         "side": "team1",
         "name": "St John's",
@@ -1476,7 +1476,7 @@
       "status": "final",
       "tipoff": "2026-03-21T02:25:00.000Z",
       "venue": "T-Mobile Arena",
-      "scoreLastSyncAt": "2026-03-23T07:35:03.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:23.000Z",
       "team1": {
         "side": "team1",
         "name": "UCLA",
@@ -1518,7 +1518,7 @@
       "status": "final",
       "tipoff": "2026-03-21T02:35:00.000Z",
       "venue": "Enterprise Center",
-      "scoreLastSyncAt": "2026-03-23T07:35:03.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:23.000Z",
       "team1": {
         "side": "team1",
         "name": "Purdue",
@@ -1560,7 +1560,7 @@
       "status": "final",
       "tipoff": "2026-03-21T05:00:00.000Z",
       "venue": "T-Mobile Arena",
-      "scoreLastSyncAt": "2026-03-23T07:35:03.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:23.000Z",
       "team1": {
         "side": "team1",
         "name": "Connecticut",
@@ -1644,7 +1644,7 @@
       "status": "final",
       "tipoff": "2026-03-21T19:10:00.000Z",
       "venue": "KeyBank Center",
-      "scoreLastSyncAt": "2026-03-23T07:29:42.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:24.000Z",
       "team1": {
         "side": "team1",
         "name": "Michigan",
@@ -1686,7 +1686,7 @@
       "status": "final",
       "tipoff": "2026-03-22T00:15:00.000Z",
       "venue": "Bon Secours Wellness Arena",
-      "scoreLastSyncAt": "2026-03-23T07:29:42.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:24.000Z",
       "team1": {
         "side": "team1",
         "name": "Duke",
@@ -1728,7 +1728,7 @@
       "status": "final",
       "tipoff": "2026-03-22T01:10:00.000Z",
       "venue": "Paycom Center",
-      "scoreLastSyncAt": "2026-03-23T07:29:42.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:24.000Z",
       "team1": {
         "side": "team1",
         "name": "Houston",
@@ -1770,7 +1770,7 @@
       "status": "final",
       "tipoff": "2026-03-22T02:10:00.000Z",
       "venue": "Moda Center",
-      "scoreLastSyncAt": "2026-03-23T07:29:42.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:24.000Z",
       "team1": {
         "side": "team1",
         "name": "Gonzaga",
@@ -1812,7 +1812,7 @@
       "status": "final",
       "tipoff": "2026-03-22T02:50:00.000Z",
       "venue": "Bon Secours Wellness Arena",
-      "scoreLastSyncAt": "2026-03-23T07:29:42.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:24.000Z",
       "team1": {
         "side": "team1",
         "name": "Illinois",
@@ -1854,7 +1854,7 @@
       "status": "final",
       "tipoff": "2026-03-22T03:45:00.000Z",
       "venue": "Paycom Center",
-      "scoreLastSyncAt": "2026-03-23T07:29:42.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:24.000Z",
       "team1": {
         "side": "team1",
         "name": "Nebraska",
@@ -1896,7 +1896,7 @@
       "status": "final",
       "tipoff": "2026-03-22T04:45:00.000Z",
       "venue": "Moda Center",
-      "scoreLastSyncAt": "2026-03-23T07:29:42.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:24.000Z",
       "team1": {
         "side": "team1",
         "name": "Arkansas",
@@ -1938,7 +1938,7 @@
       "status": "final",
       "tipoff": "2026-03-22T19:10:00.000Z",
       "venue": "Enterprise Center",
-      "scoreLastSyncAt": "2026-03-23T07:29:43.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:00.000Z",
       "team1": {
         "side": "team1",
         "name": "Purdue",
@@ -1980,7 +1980,7 @@
       "status": "final",
       "tipoff": "2026-03-22T21:45:00.000Z",
       "venue": "Enterprise Center",
-      "scoreLastSyncAt": "2026-03-23T07:29:43.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:00.000Z",
       "team1": {
         "side": "team1",
         "name": "Iowa St",
@@ -2022,7 +2022,7 @@
       "status": "final",
       "tipoff": "2026-03-23T00:15:00.000Z",
       "venue": "Viejas Arena",
-      "scoreLastSyncAt": "2026-03-23T07:29:43.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:00.000Z",
       "team1": {
         "side": "team1",
         "name": "Kansas",
@@ -2061,22 +2061,22 @@
       "gameDate": "2026-03-22",
       "round": "round32",
       "roundLabel": "Round of 32",
-      "status": "live",
+      "status": "final",
       "tipoff": "2026-03-23T01:10:00.000Z",
       "venue": "T-Mobile Arena",
-      "scoreLastSyncAt": "2026-03-23T07:29:43.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:00.000Z",
       "team1": {
         "side": "team1",
         "name": "Virginia",
         "seed": "Y03",
-        "score": 71,
+        "score": 72,
         "predScore": 73
       },
       "team2": {
         "side": "team2",
         "name": "Tennessee",
         "seed": "Y06",
-        "score": 73,
+        "score": 79,
         "predScore": 74
       },
       "odds": {
@@ -2093,8 +2093,8 @@
         "total": 147,
         "projectedCover": "dnc",
         "projectedOu": "over",
-        "actualCover": null,
-        "actualOu": null
+        "actualCover": "cover",
+        "actualOu": "over"
       }
     },
     {
@@ -2106,19 +2106,19 @@
       "status": "live",
       "tipoff": "2026-03-23T02:10:00.000Z",
       "venue": "Intrust Bank Arena",
-      "scoreLastSyncAt": "2026-03-23T07:29:43.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:00.000Z",
       "team1": {
         "side": "team1",
         "name": "Florida",
         "seed": "X01",
-        "score": 31,
+        "score": 37,
         "predScore": 80
       },
       "team2": {
         "side": "team2",
         "name": "Iowa",
         "seed": "X09",
-        "score": 33,
+        "score": 44,
         "predScore": 70
       },
       "odds": {
@@ -2148,19 +2148,19 @@
       "status": "live",
       "tipoff": "2026-03-23T02:50:00.000Z",
       "venue": "Viejas Arena",
-      "scoreLastSyncAt": "2026-03-23T07:29:43.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:00.000Z",
       "team1": {
         "side": "team1",
         "name": "Arizona",
         "seed": "Z01",
-        "score": 13,
+        "score": 19,
         "predScore": 84
       },
       "team2": {
         "side": "team2",
         "name": "Utah St",
         "seed": "Z09",
-        "score": 10,
+        "score": 16,
         "predScore": 71
       },
       "odds": {
@@ -2190,7 +2190,7 @@
       "status": "scheduled",
       "tipoff": "2026-03-23T03:45:00.000Z",
       "venue": "T-Mobile Arena",
-      "scoreLastSyncAt": "2026-03-23T07:29:43.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:00.000Z",
       "team1": {
         "side": "team1",
         "name": "Connecticut",
@@ -2232,7 +2232,7 @@
       "status": "scheduled",
       "tipoff": "2026-03-23T04:45:00.000Z",
       "venue": "Intrust Bank Arena",
-      "scoreLastSyncAt": "2026-03-23T07:29:43.000Z",
+      "scoreLastSyncAt": "2026-03-23T07:40:00.000Z",
       "team1": {
         "side": "team1",
         "name": "Alabama",
