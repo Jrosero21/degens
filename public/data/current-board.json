@@ -4,11 +4,11 @@
     "seasonLabel": "2026 NCAA Tournament",
     "activeModel": "score_v2_blend",
     "refreshCadence": "Daily schedule and odds, recurring live scores",
-    "updatedAt": "2026-03-26T22:51:56.000Z"
+    "updatedAt": "2026-03-27T04:45:00.000Z"
   },
   "summary": {
-    "totalGames": 52,
-    "scheduledGames": 1,
+    "totalGames": 54,
+    "scheduledGames": 3,
     "liveGames": 0,
     "finalGames": 51
   },
@@ -1644,7 +1644,7 @@
       "status": "final",
       "tipoff": "2026-03-21T19:10:00.000Z",
       "venue": "KeyBank Center",
-      "scoreLastSyncAt": "2026-03-26T22:51:56.000Z",
+      "scoreLastSyncAt": "2026-03-26T23:02:24.000Z",
       "team1": {
         "side": "team1",
         "name": "Michigan",
@@ -1686,7 +1686,7 @@
       "status": "final",
       "tipoff": "2026-03-22T00:15:00.000Z",
       "venue": "Bon Secours Wellness Arena",
-      "scoreLastSyncAt": "2026-03-26T22:51:56.000Z",
+      "scoreLastSyncAt": "2026-03-26T23:02:24.000Z",
       "team1": {
         "side": "team1",
         "name": "Duke",
@@ -1728,7 +1728,7 @@
       "status": "final",
       "tipoff": "2026-03-22T01:10:00.000Z",
       "venue": "Paycom Center",
-      "scoreLastSyncAt": "2026-03-26T22:51:56.000Z",
+      "scoreLastSyncAt": "2026-03-26T23:02:24.000Z",
       "team1": {
         "side": "team1",
         "name": "Houston",
@@ -1770,7 +1770,7 @@
       "status": "final",
       "tipoff": "2026-03-22T02:10:00.000Z",
       "venue": "Moda Center",
-      "scoreLastSyncAt": "2026-03-26T22:51:56.000Z",
+      "scoreLastSyncAt": "2026-03-26T23:02:24.000Z",
       "team1": {
         "side": "team1",
         "name": "Gonzaga",
@@ -1812,7 +1812,7 @@
       "status": "final",
       "tipoff": "2026-03-22T02:50:00.000Z",
       "venue": "Bon Secours Wellness Arena",
-      "scoreLastSyncAt": "2026-03-26T22:51:56.000Z",
+      "scoreLastSyncAt": "2026-03-26T23:02:24.000Z",
       "team1": {
         "side": "team1",
         "name": "Illinois",
@@ -1854,7 +1854,7 @@
       "status": "final",
       "tipoff": "2026-03-22T03:45:00.000Z",
       "venue": "Paycom Center",
-      "scoreLastSyncAt": "2026-03-26T22:51:56.000Z",
+      "scoreLastSyncAt": "2026-03-26T23:02:24.000Z",
       "team1": {
         "side": "team1",
         "name": "Nebraska",
@@ -1896,7 +1896,7 @@
       "status": "final",
       "tipoff": "2026-03-22T04:45:00.000Z",
       "venue": "Moda Center",
-      "scoreLastSyncAt": "2026-03-26T22:51:56.000Z",
+      "scoreLastSyncAt": "2026-03-26T23:02:24.000Z",
       "team1": {
         "side": "team1",
         "name": "Arkansas",
@@ -2263,6 +2263,90 @@
         "projectedOu": "over",
         "actualCover": "dnc",
         "actualOu": "under"
+      }
+    },
+    {
+      "id": "R3X1",
+      "gameSlot": "R3X1",
+      "gameDate": "2026-03-26",
+      "round": "sweet16",
+      "roundLabel": "Sweet 16",
+      "status": "scheduled",
+      "tipoff": "2026-03-27T02:30:00.000Z",
+      "venue": "Toyota Center",
+      "scoreLastSyncAt": "2026-03-26T22:50:00.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Iowa",
+        "seed": "X09",
+        "score": null,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Nebraska",
+        "seed": "X04",
+        "score": null,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R3Z1",
+      "gameSlot": "R3Z1",
+      "gameDate": "2026-03-26",
+      "round": "sweet16",
+      "roundLabel": "Sweet 16",
+      "status": "scheduled",
+      "tipoff": "2026-03-27T04:45:00.000Z",
+      "venue": "SAP Center",
+      "scoreLastSyncAt": "2026-03-26T22:50:00.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Arizona",
+        "seed": "Z01",
+        "score": null,
+        "predScore": null
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Arkansas",
+        "seed": "Z04",
+        "score": null,
+        "predScore": null
+      },
+      "odds": {
+        "snapshotAt": null,
+        "favoriteTeam": null,
+        "favoriteSpread": null,
+        "total": null
+      },
+      "prediction": {
+        "modelVersion": null,
+        "runAt": null,
+        "winner": null,
+        "margin": null,
+        "total": null,
+        "projectedCover": null,
+        "projectedOu": null,
+        "actualCover": null,
+        "actualOu": null
       }
     }
   ]
