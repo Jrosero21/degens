@@ -4,12 +4,12 @@
     "seasonLabel": "2026 NCAA Tournament",
     "activeModel": "score_v2_blend",
     "refreshCadence": "Daily schedule and odds, recurring live scores",
-    "updatedAt": "2026-03-27T06:26:01.000Z"
+    "updatedAt": "2026-03-27T06:31:28.000Z"
   },
   "summary": {
     "totalGames": 56,
-    "scheduledGames": 4,
-    "liveGames": 1,
+    "scheduledGames": 3,
+    "liveGames": 2,
     "finalGames": 51
   },
   "modelAccuracy": [
@@ -2331,22 +2331,22 @@
       "gameDate": "2026-03-26",
       "round": "sweet16",
       "roundLabel": "Sweet 16",
-      "status": "scheduled",
+      "status": "live",
       "tipoff": "2026-03-27T02:30:00.000Z",
       "venue": "Toyota Center",
-      "scoreLastSyncAt": "2026-03-27T06:26:01.000Z",
+      "scoreLastSyncAt": "2026-03-27T06:31:28.000Z",
       "team1": {
         "side": "team1",
         "name": "Iowa",
         "seed": "X09",
-        "score": null,
+        "score": 0,
         "predScore": 66
       },
       "team2": {
         "side": "team2",
         "name": "Nebraska",
         "seed": "X04",
-        "score": null,
+        "score": 0,
         "predScore": 68
       },
       "odds": {
