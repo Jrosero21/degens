@@ -4,7 +4,7 @@
     "seasonLabel": "2026 NCAA Tournament",
     "activeModel": "score_v2_blend",
     "refreshCadence": "Daily schedule and odds, recurring live scores",
-    "updatedAt": "2026-03-28T06:47:25.000Z"
+    "updatedAt": "2026-03-28T06:52:44.000Z"
   },
   "summary": {
     "totalGames": 60,
@@ -2292,7 +2292,7 @@
       "status": "final",
       "tipoff": "2026-03-27T02:10:00.000Z",
       "venue": "SAP Center",
-      "scoreLastSyncAt": "2026-03-28T03:50:04.000Z",
+      "scoreLastSyncAt": "2026-03-28T06:52:44.000Z",
       "team1": {
         "side": "team1",
         "name": "Purdue",
@@ -2334,7 +2334,7 @@
       "status": "final",
       "tipoff": "2026-03-27T02:30:00.000Z",
       "venue": "Toyota Center",
-      "scoreLastSyncAt": "2026-03-28T03:50:04.000Z",
+      "scoreLastSyncAt": "2026-03-28T06:52:44.000Z",
       "team1": {
         "side": "team1",
         "name": "Iowa",
@@ -2376,7 +2376,7 @@
       "status": "final",
       "tipoff": "2026-03-27T04:45:00.000Z",
       "venue": "SAP Center",
-      "scoreLastSyncAt": "2026-03-28T03:50:04.000Z",
+      "scoreLastSyncAt": "2026-03-28T06:52:44.000Z",
       "team1": {
         "side": "team1",
         "name": "Arizona",
@@ -2418,7 +2418,7 @@
       "status": "final",
       "tipoff": "2026-03-27T05:05:00.000Z",
       "venue": "Toyota Center",
-      "scoreLastSyncAt": "2026-03-28T03:50:04.000Z",
+      "scoreLastSyncAt": "2026-03-28T06:52:44.000Z",
       "team1": {
         "side": "team1",
         "name": "Houston",
