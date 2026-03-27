@@ -1643,7 +1643,7 @@
       },
       "prediction": {
         "modelVersion": "score_v2_blend",
-        "runAt": "2026-03-27T07:00:28.000Z",
+        "runAt": "2026-03-28T01:00:15.000Z",
         "winner": "Michigan St",
         "margin": 1,
         "total": 155,
@@ -2466,29 +2466,29 @@
         "name": "Duke",
         "seed": "W01",
         "score": null,
-        "predScore": null
+        "predScore": 76
       },
       "team2": {
         "side": "team2",
         "name": "St John's",
         "seed": "W05",
         "score": null,
-        "predScore": null
+        "predScore": 68
       },
       "odds": {
-        "snapshotAt": null,
-        "favoriteTeam": null,
-        "favoriteSpread": null,
-        "total": null
+        "snapshotAt": "2026-03-28T05:00:11.000Z",
+        "favoriteTeam": "Duke Blue Devils",
+        "favoriteSpread": 6.5,
+        "total": 140.5909
       },
       "prediction": {
-        "modelVersion": null,
-        "runAt": null,
-        "winner": null,
-        "margin": null,
-        "total": null,
-        "projectedCover": null,
-        "projectedOu": null,
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-28T01:00:15.000Z",
+        "winner": "Duke",
+        "margin": 8,
+        "total": 144,
+        "projectedCover": "cover",
+        "projectedOu": "over",
         "actualCover": null,
         "actualOu": null
       }
@@ -2508,29 +2508,29 @@
         "name": "Michigan",
         "seed": "Y01",
         "score": null,
-        "predScore": null
+        "predScore": 88
       },
       "team2": {
         "side": "team2",
         "name": "Alabama",
         "seed": "Y04",
         "score": null,
-        "predScore": null
+        "predScore": 79
       },
       "odds": {
-        "snapshotAt": null,
-        "favoriteTeam": null,
-        "favoriteSpread": null,
-        "total": null
+        "snapshotAt": "2026-03-28T05:00:11.000Z",
+        "favoriteTeam": "Michigan Wolverines",
+        "favoriteSpread": 9.5,
+        "total": 172.7727
       },
       "prediction": {
-        "modelVersion": null,
-        "runAt": null,
-        "winner": null,
-        "margin": null,
-        "total": null,
-        "projectedCover": null,
-        "projectedOu": null,
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-28T01:00:15.000Z",
+        "winner": "Michigan",
+        "margin": 9,
+        "total": 167,
+        "projectedCover": "dnc",
+        "projectedOu": "under",
         "actualCover": null,
         "actualOu": null
       }
@@ -2550,29 +2550,29 @@
         "name": "Iowa St",
         "seed": "Y02",
         "score": null,
-        "predScore": null
+        "predScore": 74
       },
       "team2": {
         "side": "team2",
         "name": "Tennessee",
         "seed": "Y06",
         "score": null,
-        "predScore": null
+        "predScore": 72
       },
       "odds": {
-        "snapshotAt": null,
-        "favoriteTeam": null,
-        "favoriteSpread": null,
-        "total": null
+        "snapshotAt": "2026-03-28T05:00:11.000Z",
+        "favoriteTeam": "Iowa State Cyclones",
+        "favoriteSpread": 3.6818,
+        "total": 139.5
       },
       "prediction": {
-        "modelVersion": null,
-        "runAt": null,
-        "winner": null,
-        "margin": null,
-        "total": null,
-        "projectedCover": null,
-        "projectedOu": null,
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-28T01:00:15.000Z",
+        "winner": "Iowa St",
+        "margin": 2,
+        "total": 146,
+        "projectedCover": "dnc",
+        "projectedOu": "over",
         "actualCover": null,
         "actualOu": null
       }
