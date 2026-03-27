@@ -4,13 +4,13 @@
     "seasonLabel": "2026 NCAA Tournament",
     "activeModel": "score_v2_blend",
     "refreshCadence": "Daily schedule and odds, recurring live scores",
-    "updatedAt": "2026-03-27T08:24:12.000Z"
+    "updatedAt": "2026-03-27T08:29:34.000Z"
   },
   "summary": {
     "totalGames": 56,
     "scheduledGames": 3,
-    "liveGames": 2,
-    "finalGames": 51
+    "liveGames": 1,
+    "finalGames": 52
   },
   "modelAccuracy": [
     {
@@ -71,30 +71,30 @@
       "modelVersion": "score_v1",
       "round": "sweet16",
       "roundLabel": "Sweet 16",
-      "finalizedGames": 0,
-      "winnerAccuracy": null,
-      "teamScoreMae": null,
-      "totalPointsMae": null
+      "finalizedGames": 2,
+      "winnerAccuracy": 0,
+      "teamScoreMae": 6,
+      "totalPointsMae": 12
     },
     {
       "modelVersion": "score_v2_blend",
       "round": "sweet16",
       "roundLabel": "Sweet 16",
-      "finalizedGames": 0,
-      "winnerAccuracy": null,
-      "teamScoreMae": null,
-      "totalPointsMae": null
+      "finalizedGames": 2,
+      "winnerAccuracy": 0,
+      "teamScoreMae": 7,
+      "totalPointsMae": 14
     }
   ],
   "modelOutcomeAccuracy": {
-    "finalizedGames": 23,
-    "winnerAccuracy": 0.8696,
-    "coverPicks": 12,
-    "coverAccuracy": 0.75,
+    "finalizedGames": 24,
+    "winnerAccuracy": 0.8333,
+    "coverPicks": 13,
+    "coverAccuracy": 0.6923,
     "dncPicks": 9,
     "dncAccuracy": 0.6364,
-    "overPicks": 19,
-    "overAccuracy": 0.4211,
+    "overPicks": 20,
+    "overAccuracy": 0.45,
     "underPicks": 4,
     "underAccuracy": 0.25
   },
@@ -2331,22 +2331,22 @@
       "gameDate": "2026-03-26",
       "round": "sweet16",
       "roundLabel": "Sweet 16",
-      "status": "live",
+      "status": "final",
       "tipoff": "2026-03-27T02:30:00.000Z",
       "venue": "Toyota Center",
-      "scoreLastSyncAt": "2026-03-27T08:24:12.000Z",
+      "scoreLastSyncAt": "2026-03-27T08:29:34.000Z",
       "team1": {
         "side": "team1",
         "name": "Iowa",
         "seed": "X09",
-        "score": 74,
+        "score": 77,
         "predScore": 66
       },
       "team2": {
         "side": "team2",
         "name": "Nebraska",
         "seed": "X04",
-        "score": 68,
+        "score": 71,
         "predScore": 68
       },
       "odds": {
@@ -2363,8 +2363,8 @@
         "total": 134,
         "projectedCover": "cover",
         "projectedOu": "over",
-        "actualCover": null,
-        "actualOu": null
+        "actualCover": "dnc",
+        "actualOu": "over"
       }
     },
     {
