@@ -4,12 +4,12 @@
     "seasonLabel": "2026 NCAA Tournament",
     "activeModel": "score_v2_blend",
     "refreshCadence": "Daily schedule and odds, recurring live scores",
-    "updatedAt": "2026-03-28T05:10:00.000Z"
+    "updatedAt": "2026-03-28T06:47:25.000Z"
   },
   "summary": {
     "totalGames": 60,
-    "scheduledGames": 5,
-    "liveGames": 0,
+    "scheduledGames": 3,
+    "liveGames": 2,
     "finalGames": 55
   },
   "modelAccuracy": [
@@ -2457,22 +2457,22 @@
       "gameDate": "2026-03-27",
       "round": "sweet16",
       "roundLabel": "Sweet 16",
-      "status": "scheduled",
+      "status": "live",
       "tipoff": "2026-03-28T02:10:00.000Z",
       "venue": "Capital One Arena",
-      "scoreLastSyncAt": "2026-03-28T02:24:25.000Z",
+      "scoreLastSyncAt": "2026-03-28T06:47:25.000Z",
       "team1": {
         "side": "team1",
         "name": "Duke",
         "seed": "W01",
-        "score": null,
+        "score": 30,
         "predScore": 76
       },
       "team2": {
         "side": "team2",
         "name": "St John's",
         "seed": "W05",
-        "score": null,
+        "score": 26,
         "predScore": 68
       },
       "odds": {
@@ -2499,22 +2499,22 @@
       "gameDate": "2026-03-27",
       "round": "sweet16",
       "roundLabel": "Sweet 16",
-      "status": "scheduled",
+      "status": "live",
       "tipoff": "2026-03-28T02:35:00.000Z",
       "venue": "United Center",
-      "scoreLastSyncAt": "2026-03-28T02:24:25.000Z",
+      "scoreLastSyncAt": "2026-03-28T06:47:25.000Z",
       "team1": {
         "side": "team1",
         "name": "Michigan",
         "seed": "Y01",
-        "score": null,
+        "score": 0,
         "predScore": 88
       },
       "team2": {
         "side": "team2",
         "name": "Alabama",
         "seed": "Y04",
-        "score": null,
+        "score": 0,
         "predScore": 79
       },
       "odds": {
@@ -2544,7 +2544,7 @@
       "status": "scheduled",
       "tipoff": "2026-03-28T04:45:00.000Z",
       "venue": "Capital One Arena",
-      "scoreLastSyncAt": "2026-03-28T02:24:25.000Z",
+      "scoreLastSyncAt": "2026-03-28T06:47:25.000Z",
       "team1": {
         "side": "team1",
         "name": "Connecticut",
@@ -2586,7 +2586,7 @@
       "status": "scheduled",
       "tipoff": "2026-03-28T05:10:00.000Z",
       "venue": "United Center",
-      "scoreLastSyncAt": "2026-03-28T02:24:25.000Z",
+      "scoreLastSyncAt": "2026-03-28T06:47:25.000Z",
       "team1": {
         "side": "team1",
         "name": "Iowa St",
