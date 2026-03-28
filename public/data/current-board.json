@@ -4,13 +4,13 @@
     "seasonLabel": "2026 NCAA Tournament",
     "activeModel": "score_v2_blend",
     "refreshCadence": "Daily schedule and odds, recurring live scores",
-    "updatedAt": "2026-03-28T08:23:05.000Z"
+    "updatedAt": "2026-03-28T08:28:25.000Z"
   },
   "summary": {
     "totalGames": 60,
     "scheduledGames": 3,
-    "liveGames": 2,
-    "finalGames": 55
+    "liveGames": 1,
+    "finalGames": 56
   },
   "modelAccuracy": [
     {
@@ -71,30 +71,30 @@
       "modelVersion": "score_v1",
       "round": "sweet16",
       "roundLabel": "Sweet 16",
-      "finalizedGames": 8,
-      "winnerAccuracy": 0.75,
-      "teamScoreMae": 12.875,
-      "totalPointsMae": 24
+      "finalizedGames": 10,
+      "winnerAccuracy": 0.8,
+      "teamScoreMae": 11,
+      "totalPointsMae": 20.6
     },
     {
       "modelVersion": "score_v2_blend",
       "round": "sweet16",
       "roundLabel": "Sweet 16",
-      "finalizedGames": 8,
-      "winnerAccuracy": 0.625,
-      "teamScoreMae": 9.75,
-      "totalPointsMae": 19
+      "finalizedGames": 10,
+      "winnerAccuracy": 0.7,
+      "teamScoreMae": 8.9,
+      "totalPointsMae": 17.4
     }
   ],
   "modelOutcomeAccuracy": {
-    "finalizedGames": 27,
-    "winnerAccuracy": 0.8519,
-    "coverPicks": 14,
-    "coverAccuracy": 0.6429,
+    "finalizedGames": 28,
+    "winnerAccuracy": 0.8571,
+    "coverPicks": 15,
+    "coverAccuracy": 0.6,
     "dncPicks": 11,
     "dncAccuracy": 0.6154,
-    "overPicks": 22,
-    "overAccuracy": 0.5,
+    "overPicks": 23,
+    "overAccuracy": 0.5217,
     "underPicks": 5,
     "underAccuracy": 0.2
   },
@@ -2457,15 +2457,15 @@
       "gameDate": "2026-03-27",
       "round": "sweet16",
       "roundLabel": "Sweet 16",
-      "status": "live",
+      "status": "final",
       "tipoff": "2026-03-28T02:10:00.000Z",
       "venue": "Capital One Arena",
-      "scoreLastSyncAt": "2026-03-28T08:23:05.000Z",
+      "scoreLastSyncAt": "2026-03-28T08:28:25.000Z",
       "team1": {
         "side": "team1",
         "name": "Duke",
         "seed": "W01",
-        "score": 78,
+        "score": 80,
         "predScore": 76
       },
       "team2": {
@@ -2489,8 +2489,8 @@
         "total": 144,
         "projectedCover": "cover",
         "projectedOu": "over",
-        "actualCover": null,
-        "actualOu": null
+        "actualCover": "dnc",
+        "actualOu": "over"
       }
     },
     {
