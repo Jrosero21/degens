@@ -4,7 +4,7 @@
     "seasonLabel": "2026 NCAA Tournament",
     "activeModel": "score_v2_blend",
     "refreshCadence": "Daily schedule and odds, recurring live scores",
-    "updatedAt": "2026-03-28T10:51:50.000Z"
+    "updatedAt": "2026-03-28T11:02:36.000Z"
   },
   "summary": {
     "totalGames": 60,
@@ -1643,7 +1643,7 @@
       },
       "prediction": {
         "modelVersion": "score_v2_blend",
-        "runAt": "2026-03-28T01:03:11.000Z",
+        "runAt": "2026-03-28T07:02:39.000Z",
         "winner": "Michigan St",
         "margin": 1,
         "total": 155,
@@ -2460,7 +2460,7 @@
       "status": "final",
       "tipoff": "2026-03-28T02:10:00.000Z",
       "venue": "Capital One Arena",
-      "scoreLastSyncAt": "2026-03-28T10:51:50.000Z",
+      "scoreLastSyncAt": "2026-03-28T11:02:26.000Z",
       "team1": {
         "side": "team1",
         "name": "Duke",
@@ -2502,7 +2502,7 @@
       "status": "final",
       "tipoff": "2026-03-28T02:35:00.000Z",
       "venue": "United Center",
-      "scoreLastSyncAt": "2026-03-28T10:51:50.000Z",
+      "scoreLastSyncAt": "2026-03-28T11:02:26.000Z",
       "team1": {
         "side": "team1",
         "name": "Michigan",
@@ -2544,30 +2544,30 @@
       "status": "live",
       "tipoff": "2026-03-28T04:45:00.000Z",
       "venue": "Capital One Arena",
-      "scoreLastSyncAt": "2026-03-28T10:51:50.000Z",
+      "scoreLastSyncAt": "2026-03-28T11:02:26.000Z",
       "team1": {
         "side": "team1",
         "name": "Connecticut",
         "seed": "W02",
-        "score": 56,
+        "score": 61,
         "predScore": 76
       },
       "team2": {
         "side": "team2",
         "name": "Michigan St",
         "seed": "W03",
-        "score": 49,
+        "score": 57,
         "predScore": 73
       },
       "odds": {
-        "snapshotAt": "2026-03-28T05:03:08.000Z",
+        "snapshotAt": "2026-03-28T11:02:36.000Z",
         "favoriteTeam": "UConn Huskies",
-        "favoriteSpread": 1.9091,
-        "total": 136.5
+        "favoriteSpread": 2.1667,
+        "total": 123.5
       },
       "prediction": {
         "modelVersion": "score_v2_blend",
-        "runAt": "2026-03-28T01:03:11.000Z",
+        "runAt": "2026-03-28T07:02:39.000Z",
         "winner": "Connecticut",
         "margin": 3,
         "total": 149,
@@ -2586,33 +2586,33 @@
       "status": "live",
       "tipoff": "2026-03-28T05:10:00.000Z",
       "venue": "United Center",
-      "scoreLastSyncAt": "2026-03-28T10:51:50.000Z",
+      "scoreLastSyncAt": "2026-03-28T11:02:26.000Z",
       "team1": {
         "side": "team1",
         "name": "Iowa St",
         "seed": "Y02",
-        "score": 33,
-        "predScore": 74
+        "score": 39,
+        "predScore": 73
       },
       "team2": {
         "side": "team2",
         "name": "Tennessee",
         "seed": "Y06",
-        "score": 39,
-        "predScore": 72
+        "score": 47,
+        "predScore": 76
       },
       "odds": {
-        "snapshotAt": "2026-03-28T05:03:08.000Z",
-        "favoriteTeam": "Iowa State Cyclones",
-        "favoriteSpread": 3.6818,
-        "total": 139.5
+        "snapshotAt": "2026-03-28T11:02:36.000Z",
+        "favoriteTeam": "Tennessee Volunteers",
+        "favoriteSpread": 6.0625,
+        "total": 145.5625
       },
       "prediction": {
         "modelVersion": "score_v2_blend",
-        "runAt": "2026-03-28T01:03:11.000Z",
-        "winner": "Iowa St",
-        "margin": 2,
-        "total": 146,
+        "runAt": "2026-03-28T07:02:39.000Z",
+        "winner": "Tennessee",
+        "margin": 3,
+        "total": 149,
         "projectedCover": "dnc",
         "projectedOu": "over",
         "actualCover": null,
