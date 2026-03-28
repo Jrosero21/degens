@@ -4,12 +4,12 @@
     "seasonLabel": "2026 NCAA Tournament",
     "activeModel": "score_v2_blend",
     "refreshCadence": "Daily schedule and odds, recurring live scores",
-    "updatedAt": "2026-03-28T09:05:00.000Z"
+    "updatedAt": "2026-03-28T09:16:13.000Z"
   },
   "summary": {
     "totalGames": 60,
-    "scheduledGames": 2,
-    "liveGames": 1,
+    "scheduledGames": 1,
+    "liveGames": 2,
     "finalGames": 57
   },
   "modelAccuracy": [
@@ -2460,7 +2460,7 @@
       "status": "final",
       "tipoff": "2026-03-28T02:10:00.000Z",
       "venue": "Capital One Arena",
-      "scoreLastSyncAt": "2026-03-28T09:05:00.000Z",
+      "scoreLastSyncAt": "2026-03-28T09:16:13.000Z",
       "team1": {
         "side": "team1",
         "name": "Duke",
@@ -2502,7 +2502,7 @@
       "status": "final",
       "tipoff": "2026-03-28T02:35:00.000Z",
       "venue": "United Center",
-      "scoreLastSyncAt": "2026-03-28T09:05:00.000Z",
+      "scoreLastSyncAt": "2026-03-28T09:16:13.000Z",
       "team1": {
         "side": "team1",
         "name": "Michigan",
@@ -2544,19 +2544,19 @@
       "status": "live",
       "tipoff": "2026-03-28T04:45:00.000Z",
       "venue": "Capital One Arena",
-      "scoreLastSyncAt": "2026-03-28T09:05:00.000Z",
+      "scoreLastSyncAt": "2026-03-28T09:16:13.000Z",
       "team1": {
         "side": "team1",
         "name": "Connecticut",
         "seed": "W02",
-        "score": 6,
+        "score": 15,
         "predScore": 76
       },
       "team2": {
         "side": "team2",
         "name": "Michigan St",
         "seed": "W03",
-        "score": 4,
+        "score": 5,
         "predScore": 73
       },
       "odds": {
@@ -2583,22 +2583,22 @@
       "gameDate": "2026-03-27",
       "round": "sweet16",
       "roundLabel": "Sweet 16",
-      "status": "scheduled",
+      "status": "live",
       "tipoff": "2026-03-28T05:10:00.000Z",
       "venue": "United Center",
-      "scoreLastSyncAt": "2026-03-28T09:05:00.000Z",
+      "scoreLastSyncAt": "2026-03-28T09:16:13.000Z",
       "team1": {
         "side": "team1",
         "name": "Iowa St",
         "seed": "Y02",
-        "score": null,
+        "score": 0,
         "predScore": 74
       },
       "team2": {
         "side": "team2",
         "name": "Tennessee",
         "seed": "Y06",
-        "score": null,
+        "score": 0,
         "predScore": 72
       },
       "odds": {
