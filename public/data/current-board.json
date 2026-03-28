@@ -4,7 +4,7 @@
     "seasonLabel": "2026 NCAA Tournament",
     "activeModel": "score_v2_blend",
     "refreshCadence": "Daily schedule and odds, recurring live scores",
-    "updatedAt": "2026-03-28T09:58:43.000Z"
+    "updatedAt": "2026-03-28T10:09:21.000Z"
   },
   "summary": {
     "totalGames": 60,
@@ -2460,7 +2460,7 @@
       "status": "final",
       "tipoff": "2026-03-28T02:10:00.000Z",
       "venue": "Capital One Arena",
-      "scoreLastSyncAt": "2026-03-28T09:58:43.000Z",
+      "scoreLastSyncAt": "2026-03-28T10:09:21.000Z",
       "team1": {
         "side": "team1",
         "name": "Duke",
@@ -2502,7 +2502,7 @@
       "status": "final",
       "tipoff": "2026-03-28T02:35:00.000Z",
       "venue": "United Center",
-      "scoreLastSyncAt": "2026-03-28T09:58:43.000Z",
+      "scoreLastSyncAt": "2026-03-28T10:09:21.000Z",
       "team1": {
         "side": "team1",
         "name": "Michigan",
@@ -2544,7 +2544,7 @@
       "status": "live",
       "tipoff": "2026-03-28T04:45:00.000Z",
       "venue": "Capital One Arena",
-      "scoreLastSyncAt": "2026-03-28T09:58:43.000Z",
+      "scoreLastSyncAt": "2026-03-28T10:09:21.000Z",
       "team1": {
         "side": "team1",
         "name": "Connecticut",
@@ -2586,19 +2586,19 @@
       "status": "live",
       "tipoff": "2026-03-28T05:10:00.000Z",
       "venue": "United Center",
-      "scoreLastSyncAt": "2026-03-28T09:58:43.000Z",
+      "scoreLastSyncAt": "2026-03-28T10:09:21.000Z",
       "team1": {
         "side": "team1",
         "name": "Iowa St",
         "seed": "Y02",
-        "score": 13,
+        "score": 19,
         "predScore": 74
       },
       "team2": {
         "side": "team2",
         "name": "Tennessee",
         "seed": "Y06",
-        "score": 13,
+        "score": 24,
         "predScore": 72
       },
       "odds": {
