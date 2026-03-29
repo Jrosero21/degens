@@ -4,12 +4,12 @@
     "seasonLabel": "2026 NCAA Tournament",
     "activeModel": "score_v2_blend",
     "refreshCadence": "Daily schedule and odds, recurring live scores",
-    "updatedAt": "2026-03-30T03:57:30.000Z"
+    "updatedAt": "2026-03-30T04:08:13.000Z"
   },
   "summary": {
     "totalGames": 64,
-    "scheduledGames": 1,
-    "liveGames": 0,
+    "scheduledGames": 0,
+    "liveGames": 1,
     "finalGames": 63
   },
   "modelAccuracy": [
@@ -2730,7 +2730,7 @@
       "status": "final",
       "tipoff": "2026-03-29T21:15:00.000Z",
       "venue": "United Center",
-      "scoreLastSyncAt": "2026-03-30T03:57:30.000Z",
+      "scoreLastSyncAt": "2026-03-30T04:08:12.000Z",
       "team1": {
         "side": "team1",
         "name": "Michigan",
@@ -2769,22 +2769,22 @@
       "gameDate": "2026-03-29",
       "round": "elite8",
       "roundLabel": "Elite 8",
-      "status": "scheduled",
+      "status": "live",
       "tipoff": "2026-03-30T00:05:00.000Z",
       "venue": "Capital One Arena",
-      "scoreLastSyncAt": "2026-03-30T03:57:30.000Z",
+      "scoreLastSyncAt": "2026-03-30T04:08:13.000Z",
       "team1": {
         "side": "team1",
         "name": "Duke",
         "seed": "W01",
-        "score": null,
+        "score": 0,
         "predScore": 73
       },
       "team2": {
         "side": "team2",
         "name": "Connecticut",
         "seed": "W02",
-        "score": null,
+        "score": 2,
         "predScore": 66
       },
       "odds": {
