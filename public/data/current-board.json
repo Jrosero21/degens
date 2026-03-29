@@ -4,11 +4,11 @@
     "seasonLabel": "2026 NCAA Tournament",
     "activeModel": "score_v2_blend",
     "refreshCadence": "Daily schedule and odds, recurring live scores",
-    "updatedAt": "2026-03-29T10:54:24.000Z"
+    "updatedAt": "2026-03-30T00:05:00.000Z"
   },
   "summary": {
-    "totalGames": 62,
-    "scheduledGames": 0,
+    "totalGames": 64,
+    "scheduledGames": 2,
     "liveGames": 0,
     "finalGames": 62
   },
@@ -1974,7 +1974,7 @@
       "status": "final",
       "tipoff": "2026-03-22T19:10:00.000Z",
       "venue": "Enterprise Center",
-      "scoreLastSyncAt": "2026-03-29T10:54:20.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:16.000Z",
       "team1": {
         "side": "team1",
         "name": "Purdue",
@@ -2016,7 +2016,7 @@
       "status": "final",
       "tipoff": "2026-03-22T21:45:00.000Z",
       "venue": "Enterprise Center",
-      "scoreLastSyncAt": "2026-03-29T10:54:20.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:16.000Z",
       "team1": {
         "side": "team1",
         "name": "Iowa St",
@@ -2058,7 +2058,7 @@
       "status": "final",
       "tipoff": "2026-03-23T00:15:00.000Z",
       "venue": "Viejas Arena",
-      "scoreLastSyncAt": "2026-03-29T10:54:20.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:16.000Z",
       "team1": {
         "side": "team1",
         "name": "Kansas",
@@ -2100,7 +2100,7 @@
       "status": "final",
       "tipoff": "2026-03-23T01:10:00.000Z",
       "venue": "T-Mobile Arena",
-      "scoreLastSyncAt": "2026-03-29T10:54:20.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:16.000Z",
       "team1": {
         "side": "team1",
         "name": "Virginia",
@@ -2142,7 +2142,7 @@
       "status": "final",
       "tipoff": "2026-03-23T02:10:00.000Z",
       "venue": "Intrust Bank Arena",
-      "scoreLastSyncAt": "2026-03-29T10:54:20.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:16.000Z",
       "team1": {
         "side": "team1",
         "name": "Florida",
@@ -2184,7 +2184,7 @@
       "status": "final",
       "tipoff": "2026-03-23T02:50:00.000Z",
       "venue": "Viejas Arena",
-      "scoreLastSyncAt": "2026-03-29T10:54:20.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:16.000Z",
       "team1": {
         "side": "team1",
         "name": "Arizona",
@@ -2226,7 +2226,7 @@
       "status": "final",
       "tipoff": "2026-03-23T03:45:00.000Z",
       "venue": "T-Mobile Arena",
-      "scoreLastSyncAt": "2026-03-29T10:54:20.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:16.000Z",
       "team1": {
         "side": "team1",
         "name": "Connecticut",
@@ -2268,7 +2268,7 @@
       "status": "final",
       "tipoff": "2026-03-23T04:45:00.000Z",
       "venue": "Intrust Bank Arena",
-      "scoreLastSyncAt": "2026-03-29T10:54:20.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:16.000Z",
       "team1": {
         "side": "team1",
         "name": "Alabama",
@@ -2310,7 +2310,7 @@
       "status": "final",
       "tipoff": "2026-03-27T02:10:00.000Z",
       "venue": "SAP Center",
-      "scoreLastSyncAt": "2026-03-29T10:54:22.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:18.000Z",
       "team1": {
         "side": "team1",
         "name": "Purdue",
@@ -2352,7 +2352,7 @@
       "status": "final",
       "tipoff": "2026-03-27T02:30:00.000Z",
       "venue": "Toyota Center",
-      "scoreLastSyncAt": "2026-03-29T10:54:22.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:18.000Z",
       "team1": {
         "side": "team1",
         "name": "Iowa",
@@ -2394,7 +2394,7 @@
       "status": "final",
       "tipoff": "2026-03-27T04:45:00.000Z",
       "venue": "SAP Center",
-      "scoreLastSyncAt": "2026-03-29T10:54:22.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:18.000Z",
       "team1": {
         "side": "team1",
         "name": "Arizona",
@@ -2436,7 +2436,7 @@
       "status": "final",
       "tipoff": "2026-03-27T05:05:00.000Z",
       "venue": "Toyota Center",
-      "scoreLastSyncAt": "2026-03-29T10:54:22.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:18.000Z",
       "team1": {
         "side": "team1",
         "name": "Houston",
@@ -2478,7 +2478,7 @@
       "status": "final",
       "tipoff": "2026-03-28T02:10:00.000Z",
       "venue": "Capital One Arena",
-      "scoreLastSyncAt": "2026-03-29T10:54:24.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:18.000Z",
       "team1": {
         "side": "team1",
         "name": "Duke",
@@ -2520,7 +2520,7 @@
       "status": "final",
       "tipoff": "2026-03-28T02:35:00.000Z",
       "venue": "United Center",
-      "scoreLastSyncAt": "2026-03-29T10:54:24.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:18.000Z",
       "team1": {
         "side": "team1",
         "name": "Michigan",
@@ -2562,7 +2562,7 @@
       "status": "final",
       "tipoff": "2026-03-28T04:45:00.000Z",
       "venue": "Capital One Arena",
-      "scoreLastSyncAt": "2026-03-29T10:54:24.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:18.000Z",
       "team1": {
         "side": "team1",
         "name": "Connecticut",
@@ -2604,7 +2604,7 @@
       "status": "final",
       "tipoff": "2026-03-28T05:10:00.000Z",
       "venue": "United Center",
-      "scoreLastSyncAt": "2026-03-29T10:54:24.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:18.000Z",
       "team1": {
         "side": "team1",
         "name": "Iowa St",
@@ -2646,7 +2646,7 @@
       "status": "final",
       "tipoff": "2026-03-29T01:09:00.000Z",
       "venue": "Toyota Center",
-      "scoreLastSyncAt": "2026-03-29T10:25:00.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:18.000Z",
       "team1": {
         "side": "team1",
         "name": "Iowa",
@@ -2688,7 +2688,7 @@
       "status": "final",
       "tipoff": "2026-03-29T03:49:00.000Z",
       "venue": "SAP Center",
-      "scoreLastSyncAt": "2026-03-29T10:25:00.000Z",
+      "scoreLastSyncAt": "2026-03-29T23:35:18.000Z",
       "team1": {
         "side": "team1",
         "name": "Arizona",
@@ -2719,6 +2719,90 @@
         "projectedOu": "over",
         "actualCover": "cover",
         "actualOu": "under"
+      }
+    },
+    {
+      "id": "R4Y1",
+      "gameSlot": "R4Y1",
+      "gameDate": "2026-03-29",
+      "round": "elite8",
+      "roundLabel": "Elite 8",
+      "status": "scheduled",
+      "tipoff": "2026-03-29T21:15:00.000Z",
+      "venue": "United Center",
+      "scoreLastSyncAt": "2026-03-29T23:20:00.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Michigan",
+        "seed": "Y01",
+        "score": null,
+        "predScore": 80
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Tennessee",
+        "seed": "Y06",
+        "score": null,
+        "predScore": 72
+      },
+      "odds": {
+        "snapshotAt": "2026-03-29T23:35:30.000Z",
+        "favoriteTeam": "Michigan Wolverines",
+        "favoriteSpread": 8.1818,
+        "total": 146.0909
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-29T19:35:33.000Z",
+        "winner": "Michigan",
+        "margin": 8,
+        "total": 152,
+        "projectedCover": "dnc",
+        "projectedOu": "over",
+        "actualCover": null,
+        "actualOu": null
+      }
+    },
+    {
+      "id": "R4W1",
+      "gameSlot": "R4W1",
+      "gameDate": "2026-03-29",
+      "round": "elite8",
+      "roundLabel": "Elite 8",
+      "status": "scheduled",
+      "tipoff": "2026-03-30T00:05:00.000Z",
+      "venue": "Capital One Arena",
+      "scoreLastSyncAt": "2026-03-29T23:20:00.000Z",
+      "team1": {
+        "side": "team1",
+        "name": "Duke",
+        "seed": "W01",
+        "score": null,
+        "predScore": 73
+      },
+      "team2": {
+        "side": "team2",
+        "name": "Connecticut",
+        "seed": "W02",
+        "score": null,
+        "predScore": 66
+      },
+      "odds": {
+        "snapshotAt": "2026-03-29T23:35:30.000Z",
+        "favoriteTeam": "Duke Blue Devils",
+        "favoriteSpread": 5.2727,
+        "total": 134.5909
+      },
+      "prediction": {
+        "modelVersion": "score_v2_blend",
+        "runAt": "2026-03-29T19:35:33.000Z",
+        "winner": "Duke",
+        "margin": 7,
+        "total": 139,
+        "projectedCover": "cover",
+        "projectedOu": "over",
+        "actualCover": null,
+        "actualOu": null
       }
     }
   ]
