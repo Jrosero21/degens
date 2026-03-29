@@ -4,7 +4,7 @@
     "seasonLabel": "2026 NCAA Tournament",
     "activeModel": "score_v2_blend",
     "refreshCadence": "Daily schedule and odds, recurring live scores",
-    "updatedAt": "2026-03-30T06:46:09.000Z"
+    "updatedAt": "2026-03-30T06:51:32.000Z"
   },
   "summary": {
     "totalGames": 64,
@@ -2730,7 +2730,7 @@
       "status": "final",
       "tipoff": "2026-03-29T21:15:00.000Z",
       "venue": "United Center",
-      "scoreLastSyncAt": "2026-03-30T06:40:00.000Z",
+      "scoreLastSyncAt": "2026-03-30T06:50:00.000Z",
       "team1": {
         "side": "team1",
         "name": "Michigan",
@@ -2772,7 +2772,7 @@
       "status": "final",
       "tipoff": "2026-03-30T00:05:00.000Z",
       "venue": "Capital One Arena",
-      "scoreLastSyncAt": "2026-03-30T06:46:09.000Z",
+      "scoreLastSyncAt": "2026-03-30T06:51:32.000Z",
       "team1": {
         "side": "team1",
         "name": "Duke",
