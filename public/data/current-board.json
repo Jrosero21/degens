@@ -4,13 +4,13 @@
     "seasonLabel": "2026 NCAA Tournament",
     "activeModel": "score_v2_blend",
     "refreshCadence": "Daily schedule and odds, recurring live scores",
-    "updatedAt": "2026-03-29T10:00:45.000Z"
+    "updatedAt": "2026-03-29T10:06:08.000Z"
   },
   "summary": {
     "totalGames": 62,
     "scheduledGames": 0,
-    "liveGames": 1,
-    "finalGames": 61
+    "liveGames": 0,
+    "finalGames": 62
   },
   "modelAccuracy": [
     {
@@ -89,7 +89,7 @@
       "modelVersion": "score_v1",
       "round": "elite8",
       "roundLabel": "Elite 8",
-      "finalizedGames": 1,
+      "finalizedGames": 2,
       "winnerAccuracy": 0.9999,
       "teamScoreMae": 5.5,
       "totalPointsMae": 11
@@ -98,21 +98,21 @@
       "modelVersion": "score_v2_blend",
       "round": "elite8",
       "roundLabel": "Elite 8",
-      "finalizedGames": 1,
+      "finalizedGames": 2,
       "winnerAccuracy": 0.9999,
-      "teamScoreMae": 5,
-      "totalPointsMae": 10
+      "teamScoreMae": 5.25,
+      "totalPointsMae": 10.5
     }
   ],
   "modelOutcomeAccuracy": {
-    "finalizedGames": 33,
-    "winnerAccuracy": 0.8788,
-    "coverPicks": 17,
-    "coverAccuracy": 0.6471,
+    "finalizedGames": 34,
+    "winnerAccuracy": 0.8824,
+    "coverPicks": 18,
+    "coverAccuracy": 0.6667,
     "dncPicks": 14,
     "dncAccuracy": 0.5,
-    "overPicks": 27,
-    "overAccuracy": 0.4815,
+    "overPicks": 28,
+    "overAccuracy": 0.4643,
     "underPicks": 6,
     "underAccuracy": 0.3333
   },
@@ -2685,22 +2685,22 @@
       "gameDate": "2026-03-28",
       "round": "elite8",
       "roundLabel": "Elite 8",
-      "status": "live",
+      "status": "final",
       "tipoff": "2026-03-29T03:49:00.000Z",
       "venue": "SAP Center",
-      "scoreLastSyncAt": "2026-03-29T10:00:45.000Z",
+      "scoreLastSyncAt": "2026-03-29T10:06:08.000Z",
       "team1": {
         "side": "team1",
         "name": "Arizona",
         "seed": "Z01",
-        "score": 55,
+        "score": 79,
         "predScore": 80
       },
       "team2": {
         "side": "team2",
         "name": "Purdue",
         "seed": "Z02",
-        "score": 47,
+        "score": 64,
         "predScore": 74
       },
       "odds": {
@@ -2717,8 +2717,8 @@
         "total": 154,
         "projectedCover": "cover",
         "projectedOu": "over",
-        "actualCover": null,
-        "actualOu": null
+        "actualCover": "cover",
+        "actualOu": "under"
       }
     }
   ]
