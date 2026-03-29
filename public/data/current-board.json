@@ -4,7 +4,7 @@
     "seasonLabel": "2026 NCAA Tournament",
     "activeModel": "score_v2_blend",
     "refreshCadence": "Daily schedule and odds, recurring live scores",
-    "updatedAt": "2026-03-29T08:45:47.000Z"
+    "updatedAt": "2026-03-29T08:56:29.000Z"
   },
   "summary": {
     "totalGames": 62,
@@ -1638,7 +1638,7 @@
       "status": "final",
       "tipoff": "2026-03-21T19:10:00.000Z",
       "venue": "KeyBank Center",
-      "scoreLastSyncAt": "2026-03-29T08:45:47.000Z",
+      "scoreLastSyncAt": "2026-03-29T08:56:29.000Z",
       "team1": {
         "side": "team1",
         "name": "Michigan",
@@ -1680,7 +1680,7 @@
       "status": "final",
       "tipoff": "2026-03-21T21:45:00.000Z",
       "venue": "KeyBank Center",
-      "scoreLastSyncAt": "2026-03-29T08:45:47.000Z",
+      "scoreLastSyncAt": "2026-03-29T08:56:29.000Z",
       "team1": {
         "side": "team1",
         "name": "Michigan St",
@@ -1722,7 +1722,7 @@
       "status": "final",
       "tipoff": "2026-03-22T00:15:00.000Z",
       "venue": "Bon Secours Wellness Arena",
-      "scoreLastSyncAt": "2026-03-29T08:45:47.000Z",
+      "scoreLastSyncAt": "2026-03-29T08:56:29.000Z",
       "team1": {
         "side": "team1",
         "name": "Duke",
@@ -1764,7 +1764,7 @@
       "status": "final",
       "tipoff": "2026-03-22T01:10:00.000Z",
       "venue": "Paycom Center",
-      "scoreLastSyncAt": "2026-03-29T08:45:47.000Z",
+      "scoreLastSyncAt": "2026-03-29T08:56:29.000Z",
       "team1": {
         "side": "team1",
         "name": "Houston",
@@ -1806,7 +1806,7 @@
       "status": "final",
       "tipoff": "2026-03-22T02:10:00.000Z",
       "venue": "Moda Center",
-      "scoreLastSyncAt": "2026-03-29T08:45:47.000Z",
+      "scoreLastSyncAt": "2026-03-29T08:56:29.000Z",
       "team1": {
         "side": "team1",
         "name": "Gonzaga",
@@ -1848,7 +1848,7 @@
       "status": "final",
       "tipoff": "2026-03-22T02:50:00.000Z",
       "venue": "Bon Secours Wellness Arena",
-      "scoreLastSyncAt": "2026-03-29T08:45:47.000Z",
+      "scoreLastSyncAt": "2026-03-29T08:56:29.000Z",
       "team1": {
         "side": "team1",
         "name": "Illinois",
@@ -1890,7 +1890,7 @@
       "status": "final",
       "tipoff": "2026-03-22T03:45:00.000Z",
       "venue": "Paycom Center",
-      "scoreLastSyncAt": "2026-03-29T08:45:47.000Z",
+      "scoreLastSyncAt": "2026-03-29T08:56:29.000Z",
       "team1": {
         "side": "team1",
         "name": "Nebraska",
@@ -1932,7 +1932,7 @@
       "status": "final",
       "tipoff": "2026-03-22T04:45:00.000Z",
       "venue": "Moda Center",
-      "scoreLastSyncAt": "2026-03-29T08:45:47.000Z",
+      "scoreLastSyncAt": "2026-03-29T08:56:29.000Z",
       "team1": {
         "side": "team1",
         "name": "Arkansas",
@@ -2646,7 +2646,7 @@
       "status": "final",
       "tipoff": "2026-03-29T01:09:00.000Z",
       "venue": "Toyota Center",
-      "scoreLastSyncAt": "2026-03-29T08:45:47.000Z",
+      "scoreLastSyncAt": "2026-03-29T08:56:29.000Z",
       "team1": {
         "side": "team1",
         "name": "Iowa",
@@ -2688,19 +2688,19 @@
       "status": "live",
       "tipoff": "2026-03-29T03:49:00.000Z",
       "venue": "SAP Center",
-      "scoreLastSyncAt": "2026-03-29T08:45:47.000Z",
+      "scoreLastSyncAt": "2026-03-29T08:56:29.000Z",
       "team1": {
         "side": "team1",
         "name": "Arizona",
         "seed": "Z01",
-        "score": 27,
+        "score": 31,
         "predScore": 80
       },
       "team2": {
         "side": "team2",
         "name": "Purdue",
         "seed": "Z02",
-        "score": 33,
+        "score": 38,
         "predScore": 74
       },
       "odds": {
