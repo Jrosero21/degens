@@ -4,7 +4,7 @@
     "seasonLabel": "2026 NCAA Tournament",
     "activeModel": "score_v2_blend",
     "refreshCadence": "Daily schedule and odds, recurring live scores",
-    "updatedAt": "2026-03-29T10:22:11.000Z"
+    "updatedAt": "2026-03-29T10:25:00.000Z"
   },
   "summary": {
     "totalGames": 62,
@@ -2646,7 +2646,7 @@
       "status": "final",
       "tipoff": "2026-03-29T01:09:00.000Z",
       "venue": "Toyota Center",
-      "scoreLastSyncAt": "2026-03-29T10:22:11.000Z",
+      "scoreLastSyncAt": "2026-03-29T10:25:00.000Z",
       "team1": {
         "side": "team1",
         "name": "Iowa",
@@ -2688,7 +2688,7 @@
       "status": "final",
       "tipoff": "2026-03-29T03:49:00.000Z",
       "venue": "SAP Center",
-      "scoreLastSyncAt": "2026-03-29T10:22:11.000Z",
+      "scoreLastSyncAt": "2026-03-29T10:25:00.000Z",
       "team1": {
         "side": "team1",
         "name": "Arizona",
