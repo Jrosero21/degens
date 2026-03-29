@@ -4,7 +4,7 @@
     "seasonLabel": "2026 NCAA Tournament",
     "activeModel": "score_v2_blend",
     "refreshCadence": "Daily schedule and odds, recurring live scores",
-    "updatedAt": "2026-03-30T04:08:13.000Z"
+    "updatedAt": "2026-03-30T04:13:34.000Z"
   },
   "summary": {
     "totalGames": 64,
@@ -2772,19 +2772,19 @@
       "status": "live",
       "tipoff": "2026-03-30T00:05:00.000Z",
       "venue": "Capital One Arena",
-      "scoreLastSyncAt": "2026-03-30T04:08:13.000Z",
+      "scoreLastSyncAt": "2026-03-30T04:13:34.000Z",
       "team1": {
         "side": "team1",
         "name": "Duke",
         "seed": "W01",
-        "score": 0,
+        "score": 9,
         "predScore": 73
       },
       "team2": {
         "side": "team2",
         "name": "Connecticut",
         "seed": "W02",
-        "score": 2,
+        "score": 6,
         "predScore": 66
       },
       "odds": {
