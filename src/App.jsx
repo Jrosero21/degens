@@ -168,7 +168,7 @@ function pickAlternateSlateDate(games, primaryDate) {
 function App() {
   const [board, setBoard] = useState(null);
   const [selectedGameId, setSelectedGameId] = useState(null);
-  const [filterMode, setFilterMode] = useState("all");
+  const [filterMode, setFilterMode] = useState("today");
   const [betFilterMode, setBetFilterMode] = useState("all");
 
   useEffect(() => {
