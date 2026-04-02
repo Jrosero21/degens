@@ -135,11 +135,21 @@ function pickSlateDate(games) {
   if (todayGames.length) {
     return today;
   }
-  const datedGames = games.map((game) => game.gameDate).filter(Boolean).sort();
+  const datedGames = Array.from(new Set(games.map((game) => game.gameDate).filter(Boolean))).sort();
+  const nextUpcomingDate = datedGames.find((date) => date >= today);
+  if (nextUpcomingDate) {
+    return nextUpcomingDate;
+  }
   return datedGames.at(-1) ?? today;
 }
 
 function pickAlternateSlateDate(games, primaryDate) {
+  const datedGames = Array.from(new Set(games.map((game) => game.gameDate).filter(Boolean))).sort();
+  const nextDate = datedGames.find((date) => date > primaryDate);
+  if (nextDate) {
+    return nextDate;
+  }
+
   const tomorrow = dateKeyWithOffset(1);
   if (primaryDate !== tomorrow && games.some((game) => game.gameDate === tomorrow)) {
     return tomorrow;
@@ -147,6 +157,10 @@ function pickAlternateSlateDate(games, primaryDate) {
   const today = dateKeyWithOffset(0);
   if (primaryDate !== today && games.some((game) => game.gameDate === today)) {
     return today;
+  }
+  const previousDates = datedGames.filter((date) => date < primaryDate);
+  if (previousDates.length) {
+    return previousDates.at(-1);
   }
   return primaryDate;
 }
@@ -161,7 +175,7 @@ function App() {
     let active = true;
 
     async function loadBoard() {
-      const sources = [LIVE_BOARD_URL, LOCAL_BOARD_PATH].filter(Boolean);
+      const sources = [LOCAL_BOARD_PATH, LIVE_BOARD_URL].filter(Boolean);
 
       let lastError = null;
       for (const source of sources) {
