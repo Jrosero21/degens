@@ -165,10 +165,16 @@ function pickAlternateSlateDate(games, primaryDate) {
   return primaryDate;
 }
 
+function pickUpcomingSlateDate(games) {
+  const today = dateKeyWithOffset(0);
+  const datedGames = Array.from(new Set(games.map((game) => game.gameDate).filter(Boolean))).sort();
+  return datedGames.find((date) => date >= today) ?? datedGames.at(-1) ?? today;
+}
+
 function App() {
   const [board, setBoard] = useState(null);
   const [selectedGameId, setSelectedGameId] = useState(null);
-  const [filterMode, setFilterMode] = useState("today");
+  const [filterMode, setFilterMode] = useState("all");
   const [betFilterMode, setBetFilterMode] = useState("all");
 
   useEffect(() => {
@@ -225,8 +231,10 @@ function App() {
   }, []);
 
   const allGames = board?.games ?? [];
+  const literalTodayDate = useMemo(() => dateKeyWithOffset(0), []);
   const defaultSlateDate = useMemo(() => pickSlateDate(allGames), [allGames]);
   const alternateSlateDate = useMemo(() => pickAlternateSlateDate(allGames, defaultSlateDate), [allGames, defaultSlateDate]);
+  const upcomingSlateDate = useMemo(() => pickUpcomingSlateDate(allGames), [allGames]);
   const focusDates = useMemo(() => {
     return Array.from(new Set([defaultSlateDate, alternateSlateDate].filter(Boolean)));
   }, [alternateSlateDate, defaultSlateDate]);
@@ -236,8 +244,8 @@ function App() {
   }, [allGames, focusDates]);
 
   const todayGames = useMemo(() => {
-    return focusGames.filter((game) => game.gameDate === defaultSlateDate);
-  }, [defaultSlateDate, focusGames]);
+    return allGames.filter((game) => game.gameDate === literalTodayDate);
+  }, [allGames, literalTodayDate]);
 
   const tomorrowGames = useMemo(() => {
     if (!alternateSlateDate || alternateSlateDate === defaultSlateDate) {
@@ -319,11 +327,11 @@ function App() {
         <header className="topbar">
           <div className="topbar-brand">
             <img className="topbar-logo" src="/delly.png" alt="Delly" />
-            <div>
+              <div>
               <div className="eyebrow">March Madness</div>
               <h1>Tournament board</h1>
               <p>
-                {formatDateLabel(defaultSlateDate)} and {formatDateLabel(alternateSlateDate)} in ET with live status and pregame projections.
+                Upcoming men&apos;s slate: {formatDateLabel(upcomingSlateDate)} in ET with live status and pregame projections.
               </p>
             </div>
           </div>
