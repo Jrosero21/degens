@@ -174,7 +174,7 @@ function pickUpcomingSlateDate(games) {
 function App() {
   const [board, setBoard] = useState(null);
   const [selectedGameId, setSelectedGameId] = useState(null);
-  const [filterMode, setFilterMode] = useState("all");
+  const [filterMode, setFilterMode] = useState(null);
   const [betFilterMode, setBetFilterMode] = useState("all");
 
   useEffect(() => {
@@ -247,6 +247,8 @@ function App() {
     return allGames.filter((game) => game.gameDate === literalTodayDate);
   }, [allGames, literalTodayDate]);
 
+  const activeFilterMode = filterMode ?? (todayGames.length ? "today" : "all");
+
   const tomorrowGames = useMemo(() => {
     if (!alternateSlateDate || alternateSlateDate === defaultSlateDate) {
       return [];
@@ -256,20 +258,20 @@ function App() {
 
   const baseFilteredGames = useMemo(() => {
     let games;
-    if (filterMode === "today") {
+    if (activeFilterMode === "today") {
       games = todayGames;
-    } else if (filterMode === "tomorrow") {
+    } else if (activeFilterMode === "tomorrow") {
       games = tomorrowGames;
-    } else if (filterMode === "live") {
+    } else if (activeFilterMode === "live") {
       games = focusGames.filter((game) => game.status === "live");
-    } else if (filterMode === "final") {
+    } else if (activeFilterMode === "final") {
       games = focusGames.filter((game) => game.status === "final");
     } else {
       games = focusGames;
     }
 
     return games;
-  }, [filterMode, focusGames, todayGames, tomorrowGames]);
+  }, [activeFilterMode, focusGames, todayGames, tomorrowGames]);
 
   const betFilterCounts = useMemo(() => {
     return {
@@ -396,7 +398,7 @@ function App() {
                 {FILTER_OPTIONS.map((option) => (
                   <button
                     key={option.key}
-                    className={`chip chip-with-badge ${filterMode === option.key ? "is-active" : ""}`}
+                    className={`chip chip-with-badge ${activeFilterMode === option.key ? "is-active" : ""}`}
                     onClick={() => setFilterMode(option.key)}
                   >
                     <span>{option.label}</span>
