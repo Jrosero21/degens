@@ -8,9 +8,9 @@
   },
   "summary": {
     "totalGames": 67,
-    "scheduledGames": 3,
+    "scheduledGames": 1,
     "liveGames": 0,
-    "finalGames": 64
+    "finalGames": 66
   },
   "modelAccuracy": [
     {
@@ -125,32 +125,32 @@
       "modelVersion": "score_v1",
       "round": "final4",
       "roundLabel": "Final Four",
-      "finalizedGames": 0,
-      "winnerAccuracy": null,
-      "teamScoreMae": null,
-      "totalPointsMae": null
+      "finalizedGames": 4,
+      "winnerAccuracy": 0,
+      "teamScoreMae": 9,
+      "totalPointsMae": 16
     },
     {
       "modelVersion": "score_v2_blend",
       "round": "final4",
       "roundLabel": "Final Four",
-      "finalizedGames": 0,
-      "winnerAccuracy": null,
-      "teamScoreMae": null,
-      "totalPointsMae": null
+      "finalizedGames": 4,
+      "winnerAccuracy": 0,
+      "teamScoreMae": 7.75,
+      "totalPointsMae": 9.5
     }
   ],
   "modelOutcomeAccuracy": {
-    "finalizedGames": 36,
-    "winnerAccuracy": 0.8611,
-    "coverPicks": 19,
-    "coverAccuracy": 0.6316,
-    "dncPicks": 15,
-    "dncAccuracy": 0.4706,
-    "overPicks": 30,
-    "overAccuracy": 0.5,
-    "underPicks": 6,
-    "underAccuracy": 0.3333
+    "finalizedGames": 38,
+    "winnerAccuracy": 0.8158,
+    "coverPicks": 20,
+    "coverAccuracy": 0.6,
+    "dncPicks": 16,
+    "dncAccuracy": 0.4444,
+    "overPicks": 31,
+    "overAccuracy": 0.4839,
+    "underPicks": 7,
+    "underAccuracy": 0.2857
   },
   "games": [
     {
@@ -2682,7 +2682,7 @@
       "status": "final",
       "tipoff": "2026-03-29T01:09:00.000Z",
       "venue": "Toyota Center",
-      "scoreLastSyncAt": "2026-04-03T01:14:34.000Z",
+      "scoreLastSyncAt": "2026-04-05T07:00:46.000Z",
       "team1": {
         "side": "team1",
         "name": "Iowa",
@@ -2724,7 +2724,7 @@
       "status": "final",
       "tipoff": "2026-03-29T03:49:00.000Z",
       "venue": "SAP Center",
-      "scoreLastSyncAt": "2026-04-03T01:14:34.000Z",
+      "scoreLastSyncAt": "2026-04-05T07:00:46.000Z",
       "team1": {
         "side": "team1",
         "name": "Arizona",
@@ -2766,7 +2766,7 @@
       "status": "final",
       "tipoff": "2026-03-29T21:15:00.000Z",
       "venue": "United Center",
-      "scoreLastSyncAt": "2026-04-03T01:14:34.000Z",
+      "scoreLastSyncAt": "2026-04-05T07:00:46.000Z",
       "team1": {
         "side": "team1",
         "name": "Michigan",
@@ -2808,7 +2808,7 @@
       "status": "final",
       "tipoff": "2026-03-30T00:05:00.000Z",
       "venue": "Capital One Arena",
-      "scoreLastSyncAt": "2026-04-03T01:14:34.000Z",
+      "scoreLastSyncAt": "2026-04-05T07:00:46.000Z",
       "team1": {
         "side": "team1",
         "name": "Duke",
@@ -2847,40 +2847,40 @@
       "gameDate": "2026-04-04",
       "round": "final4",
       "roundLabel": "Final Four",
-      "status": "scheduled",
+      "status": "final",
       "tipoff": "2026-04-05T01:09:00.000Z",
-      "venue": null,
-      "scoreLastSyncAt": "2026-04-03T01:45:18.000Z",
+      "venue": "Lucas Oil Stadium",
+      "scoreLastSyncAt": "2026-04-06T22:54:59.000Z",
       "team1": {
         "side": "team1",
         "name": "Connecticut",
         "seed": "W02",
-        "score": null,
+        "score": 71,
         "predScore": 70
       },
       "team2": {
         "side": "team2",
         "name": "Illinois",
         "seed": "X03",
-        "score": null,
+        "score": 62,
         "predScore": 73
       },
       "odds": {
-        "snapshotAt": "2026-04-03T01:45:45.000Z",
+        "snapshotAt": "2026-04-04T21:42:42.000Z",
         "favoriteTeam": "Illinois Fighting Illini",
-        "favoriteSpread": 1.8889,
-        "total": 139.5
+        "favoriteSpread": 1.7,
+        "total": 139.35
       },
       "prediction": {
         "modelVersion": "score_v2_blend",
-        "runAt": "2026-04-02T21:45:51.000Z",
+        "runAt": "2026-04-04T17:42:53.000Z",
         "winner": "Illinois",
         "margin": 3,
         "total": 143,
         "projectedCover": "cover",
         "projectedOu": "over",
-        "actualCover": null,
-        "actualOu": null
+        "actualCover": "dnc",
+        "actualOu": "under"
       }
     },
     {
@@ -2889,40 +2889,40 @@
       "gameDate": "2026-04-04",
       "round": "final4",
       "roundLabel": "Final Four",
-      "status": "scheduled",
+      "status": "final",
       "tipoff": "2026-04-05T03:49:00.000Z",
-      "venue": null,
-      "scoreLastSyncAt": "2026-04-03T01:45:18.000Z",
+      "venue": "Lucas Oil Stadium",
+      "scoreLastSyncAt": "2026-04-06T22:54:59.000Z",
       "team1": {
         "side": "team1",
         "name": "Michigan",
         "seed": "Y01",
-        "score": null,
+        "score": 91,
         "predScore": 77
       },
       "team2": {
         "side": "team2",
         "name": "Arizona",
         "seed": "Z01",
-        "score": null,
+        "score": 73,
         "predScore": 78
       },
       "odds": {
-        "snapshotAt": "2026-04-03T01:45:45.000Z",
+        "snapshotAt": "2026-04-04T21:42:42.000Z",
         "favoriteTeam": "Michigan Wolverines",
-        "favoriteSpread": 1.5,
-        "total": 157.6
+        "favoriteSpread": 1.4545,
+        "total": 157.5909
       },
       "prediction": {
         "modelVersion": "score_v2_blend",
-        "runAt": "2026-04-02T21:45:51.000Z",
+        "runAt": "2026-04-04T17:42:53.000Z",
         "winner": "Arizona",
         "margin": 1,
         "total": 155,
         "projectedCover": "dnc",
         "projectedOu": "under",
-        "actualCover": null,
-        "actualOu": null
+        "actualCover": "cover",
+        "actualOu": "over"
       }
     },
     {
@@ -2933,14 +2933,14 @@
       "roundLabel": "championship",
       "status": "scheduled",
       "tipoff": "2026-04-07T04:00:00.000Z",
-      "venue": null,
-      "scoreLastSyncAt": "2026-04-03T01:45:45.000Z",
+      "venue": "Lucas Oil Stadium",
+      "scoreLastSyncAt": "2026-04-06T22:55:00.000Z",
       "team1": {
         "side": "team1",
         "name": "Connecticut",
         "seed": "W02",
         "score": null,
-        "predScore": 73
+        "predScore": 72
       },
       "team2": {
         "side": "team2",
@@ -2950,17 +2950,17 @@
         "predScore": 78
       },
       "odds": {
-        "snapshotAt": "2026-04-03T01:45:45.000Z",
+        "snapshotAt": "2026-04-06T22:55:12.000Z",
         "favoriteTeam": "Michigan Wolverines",
-        "favoriteSpread": 6,
-        "total": 147
+        "favoriteSpread": 6.9091,
+        "total": 145.6818
       },
       "prediction": {
         "modelVersion": "score_v2_blend",
-        "runAt": "2026-04-02T21:45:51.000Z",
+        "runAt": "2026-04-06T18:55:17.000Z",
         "winner": "Michigan",
-        "margin": 5,
-        "total": 151,
+        "margin": 6,
+        "total": 150,
         "projectedCover": "dnc",
         "projectedOu": "over",
         "actualCover": null,
