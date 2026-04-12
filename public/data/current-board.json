@@ -143,14 +143,14 @@
   "modelOutcomeAccuracy": {
     "finalizedGames": 39,
     "winnerAccuracy": 0.8205,
-    "coverPicks": 0,
-    "coverAccuracy": null,
-    "dncPicks": 39,
-    "dncAccuracy": 1,
-    "overPicks": 30,
-    "overAccuracy": 0.4333,
-    "underPicks": 9,
-    "underAccuracy": 0.2222
+    "coverPicks": 20,
+    "coverAccuracy": 0.6,
+    "dncPicks": 17,
+    "dncAccuracy": 0.4737,
+    "overPicks": 32,
+    "overAccuracy": 0.4688,
+    "underPicks": 7,
+    "underAccuracy": 0.2857
   },
   "games": [
     {
@@ -399,7 +399,7 @@
         "winner": "Kansas",
         "margin": 15,
         "total": 143,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "over",
         "actualCover": "dnc",
         "actualOu": "under"
@@ -526,8 +526,8 @@
         "margin": 33,
         "total": 155,
         "projectedCover": "dnc",
-        "projectedOu": "under",
-        "actualCover": "dnc",
+        "projectedOu": "over",
+        "actualCover": "cover",
         "actualOu": "over"
       }
     },
@@ -987,9 +987,9 @@
         "winner": "Miami FL",
         "margin": 3,
         "total": 149,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "over",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "over"
       }
     },
@@ -1535,7 +1535,7 @@
         "total": 143,
         "projectedCover": "dnc",
         "projectedOu": "under",
-        "actualCover": "dnc",
+        "actualCover": null,
         "actualOu": "under"
       }
     },
@@ -1617,9 +1617,9 @@
         "winner": "Purdue",
         "margin": 24,
         "total": 160,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "under",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "over"
       }
     },
@@ -1660,7 +1660,7 @@
         "margin": 21,
         "total": 137,
         "projectedCover": "dnc",
-        "projectedOu": "under",
+        "projectedOu": "over",
         "actualCover": "dnc",
         "actualOu": "over"
       }
@@ -1701,9 +1701,9 @@
         "winner": "Michigan",
         "margin": 13,
         "total": 159,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "under",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "over"
       }
     },
@@ -1745,7 +1745,7 @@
         "total": 155,
         "projectedCover": "dnc",
         "projectedOu": "over",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "under"
       }
     },
@@ -1785,9 +1785,9 @@
         "winner": "Duke",
         "margin": 13,
         "total": 143,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "over",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "under"
       }
     },
@@ -1869,7 +1869,7 @@
         "winner": "Gonzaga",
         "margin": 11,
         "total": 151,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "over",
         "actualCover": "dnc",
         "actualOu": "under"
@@ -1995,9 +1995,9 @@
         "winner": "Arkansas",
         "margin": 9,
         "total": 173,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "under",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "over"
       }
     },
@@ -2037,9 +2037,9 @@
         "winner": "Purdue",
         "margin": 8,
         "total": 152,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "over",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "over"
       }
     },
@@ -2079,9 +2079,9 @@
         "winner": "Iowa St",
         "margin": 8,
         "total": 150,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "over",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "under"
       }
     },
@@ -2123,7 +2123,7 @@
         "total": 146,
         "projectedCover": "dnc",
         "projectedOu": "over",
-        "actualCover": "dnc",
+        "actualCover": null,
         "actualOu": "under"
       }
     },
@@ -2165,7 +2165,7 @@
         "total": 147,
         "projectedCover": "dnc",
         "projectedOu": "over",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "over"
       }
     },
@@ -2247,9 +2247,9 @@
         "winner": "Arizona",
         "margin": 13,
         "total": 155,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "over",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "under"
       }
     },
@@ -2289,9 +2289,9 @@
         "winner": "Connecticut",
         "margin": 5,
         "total": 141,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "over",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "under"
       }
     },
@@ -2331,7 +2331,7 @@
         "winner": "Texas Tech",
         "margin": 1,
         "total": 167,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "over",
         "actualCover": "dnc",
         "actualOu": "under"
@@ -2373,7 +2373,7 @@
         "winner": "Purdue",
         "margin": 11,
         "total": 151,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "over",
         "actualCover": "dnc",
         "actualOu": "over"
@@ -2415,7 +2415,7 @@
         "winner": "Nebraska",
         "margin": 2,
         "total": 134,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "over",
         "actualCover": "dnc",
         "actualOu": "over"
@@ -2459,7 +2459,7 @@
         "total": 178,
         "projectedCover": "dnc",
         "projectedOu": "under",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "over"
       }
     },
@@ -2541,7 +2541,7 @@
         "winner": "Duke",
         "margin": 8,
         "total": 144,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "over",
         "actualCover": "dnc",
         "actualOu": "over"
@@ -2585,7 +2585,7 @@
         "total": 167,
         "projectedCover": "dnc",
         "projectedOu": "under",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "under"
       }
     },
@@ -2625,9 +2625,9 @@
         "winner": "Connecticut",
         "margin": 3,
         "total": 149,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "over",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "over"
       }
     },
@@ -2669,7 +2669,7 @@
         "total": 149,
         "projectedCover": "dnc",
         "projectedOu": "over",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "under"
       }
     },
@@ -2709,9 +2709,9 @@
         "winner": "Illinois",
         "margin": 8,
         "total": 140,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "over",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "under"
       }
     },
@@ -2751,9 +2751,9 @@
         "winner": "Arizona",
         "margin": 6,
         "total": 154,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "over",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "under"
       }
     },
@@ -2795,7 +2795,7 @@
         "total": 152,
         "projectedCover": "dnc",
         "projectedOu": "over",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "over"
       }
     },
@@ -2835,7 +2835,7 @@
         "winner": "Duke",
         "margin": 7,
         "total": 139,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "over",
         "actualCover": "dnc",
         "actualOu": "over"
@@ -2877,7 +2877,7 @@
         "winner": "Illinois",
         "margin": 3,
         "total": 143,
-        "projectedCover": "dnc",
+        "projectedCover": "cover",
         "projectedOu": "over",
         "actualCover": "dnc",
         "actualOu": "under"
@@ -2921,7 +2921,7 @@
         "total": 155,
         "projectedCover": "dnc",
         "projectedOu": "under",
-        "actualCover": "dnc",
+        "actualCover": "cover",
         "actualOu": "over"
       }
     },
